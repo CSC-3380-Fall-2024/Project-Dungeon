@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+// public abstract class that will be the basis of how we design enemies in game 
+// will most likely need to be edited later
+class enemy
+{
+    public:
+        enemy(int health, int attack, int defense, int speed) : health(health), attack(attack), defense(defense), speed(speed) {} // all of the stats for enemys
+
+    virtual void fight() = 0; // From my knowledge you need a pure virtual function for an abstract class in c++, so this is it for now
+                              // probably will be replaced by the actual fight/battle function later
+
+    protected: 
+    int health = 0; 
+    int attack = 0; 
+    int defense = 0; 
+    int speed = 0; // integer values to store stats of enemies   
+};
+
+// First enemy implemented, will have to add attacking function and probably moveset later
+class skeleton : public enemy {
+    public:
+    skeleton(int health, int attack, int defense, int speed) : enemy(health, attack, defense, speed) {}
+    void fight() override { std::cout<<"Owie"<<std::endl;} // Overrided the pure virtual function in the abstract above with something temporary for now
+};
