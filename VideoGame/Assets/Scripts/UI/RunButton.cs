@@ -14,25 +14,28 @@ public class RunButton : MonoBehaviour
     private Button myButton; // A variable to hold the Button Component
     private Image myImage;  // A variable to hold the Image Component
 
-    private MovementScript movement;
+    private MovementScript movement;// Variable for the movement of the player
 
-    private PlayerScript player;
+    private PlayerScript player;// Variable to find player
 
-    private EnemyScript enemy;
+    private EnemyScript[] enemy;// Variable for all enemies
 
     // Initiate and disable the Button and Image components
     void Awake()
     {
-
+        // Find player and all enemies
         player = FindAnyObjectByType<PlayerScript>();
-        enemy = FindAnyObjectByType<EnemyScript>();
+        enemy = FindObjectsByType<EnemyScript>(FindObjectsSortMode.None);
 
+        //Find the button for the run button
         myButton = GetComponent<Button>();
         myButton.enabled = player.FightCheck;
 
+        //Find the image for the run button
         myImage = GetComponent<Image>();
         myImage.enabled = player.FightCheck;
 
+        //Find the movement script for the player
         movement = FindAnyObjectByType<MovementScript>();
 
     }
@@ -40,7 +43,7 @@ public class RunButton : MonoBehaviour
     // Update to see if the Button and Image component needs to be enabled
     void Update()
     {
-
+        // The buttons and image is enabled depending if the player is in combat or not
         myButton.enabled = player.FightCheck;
 
         myImage.enabled = player.FightCheck;
@@ -50,9 +53,21 @@ public class RunButton : MonoBehaviour
     // Function that activates when clicked. Disengaes the fight
     public void run()
     {
+        //Player exits combat and can move again
         player.FightCheck = false;
-        enemy.FightCheck = false;
+
         movement.enabled = true;
+
+        // Exit the enemies from combat if they're in combat
+        foreach (EnemyScript badGuy in enemy)
+        {
+            if (badGuy.FightCheck == true)
+            {
+                badGuy.FightCheck = false;
+            }
+
+
+        }
     }
 
     
