@@ -50,6 +50,10 @@ public class CombatScript : MonoBehaviour
 
             Debug.Log("Engage Combat");
             Debug.Log("Player health: " + PlayerInteract.health);
+            DefCheck defCheck = new DefCheck();
+            double defReduction = defCheck.DamageReduction(PlayerInteract.defense);
+            defReduction = (1 - defReduction)*100;
+            Debug.Log("Player has " + defReduction + "% Damage Reduction");
             Debug.Log(" health: " + EnemyInteract.health);
         }
 

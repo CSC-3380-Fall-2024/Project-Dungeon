@@ -15,8 +15,13 @@ public class PlayerInteract : MonoBehaviour
     private bool fightCheck; // This holds the fightCheck from Combat Script
 
     // Public Static variables
-    public static double health; // The health stat of the player
-    public static double attack; // The attack stat of the player
+    public static double health = 20; // The health stat of the player
+    public static double attack = 5; // The attack stat of the player
+    public static double defense = 5; // Def stat of the player
+    public static double speed = 5; // Speed stat of player
+    public static int exp = 0; // XP of the player
+    public static int level = 1; // Level of the player
+    public static int statPoint = 0; // stat points that will go into other stats
 
     public static double posX; // The x position of the player. Used to calculate distance in CombatScript
     public static double posY;// The x position of the player. Used to calculate distance in CombatScript
@@ -27,10 +32,6 @@ public class PlayerInteract : MonoBehaviour
         fightCheck = CombatScript.fightCheck;
 
         fightPos = new Vector2(-2, 0);
-
-        health = 20;
-
-        attack = 5;
 
     }
 
