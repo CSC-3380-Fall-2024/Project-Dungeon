@@ -104,8 +104,15 @@ public class AttackButton : MonoBehaviour
                     player.FightCheck = false;
                     badGuy.FightCheck = false;
                     movement.enabled = true;
-                    LvlUp expCheck = new LvlUp();
-                    player.exp = expCheck.xpCheck(player.exp, badGuy.dropExp); // after enemy is defeated, gives player xp
+                    LvlUp expCheck = FindFirstObjectByType<LvlUp>(); 
+                    if (expCheck != null)
+                    {
+                        player.exp = expCheck.xpCheck(player.exp, badGuy.dropExp); // after enemy is defeated, gives player xp
+                    }
+                    else
+                    {
+                        Debug.LogError("LvlUp component not found brah");
+                    }
                 }
 
             }
