@@ -2,7 +2,7 @@ using UnityEngine;
 using JetBrains.Annotations;
 using UnityEngine;
 
-public class DefCheck
+public class DefCheck : MonoBehaviour
 {
     public static double DRDefense; // Defense that will be used to find Damage reduction
     public double DefReduction;
