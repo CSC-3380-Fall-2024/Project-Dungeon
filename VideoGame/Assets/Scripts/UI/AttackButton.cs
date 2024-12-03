@@ -22,7 +22,11 @@ public class AttackButton : MonoBehaviour
 
     private MovementScript movement;// Variable for the movement of the player
 
+<<<<<<< HEAD
+    public PlayerScript player;// Variable to find player
+=======
     private PlayerScript player;// Variable to find player
+>>>>>>> 3005fdbd378f7ee12fedc75fccee98b6682b7ca1
 
     private EnemyScript[] enemy;// Variable for all enemies
 =======
@@ -85,14 +89,48 @@ public class AttackButton : MonoBehaviour
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 3005fdbd378f7ee12fedc75fccee98b6682b7ca1
         foreach (EnemyScript badGuy in enemy)// Iterate through all enemies
         {
             if (badGuy.FightCheck == true && player.FightCheck == true)// Make sure the enemy is in combat
             {
+<<<<<<< HEAD
+                if (player.speed >= badGuy.speed) // if player's speed is greater or equal to enemy's, player attacks first
+                {
+                    DefCheck defCheck = new DefCheck();
+                    double playerdefReduction = defCheck.DamageReduction(player.defense); // takes player's defense and returns the damage reduction
+                    double enemydefReduction = defCheck.DamageReduction(badGuy.defense); // does the same for the enemy
+
+                    badGuy.Health = DmgCalc.PlayerAttack(player.Attack, enemydefReduction, badGuy.Health); // player attacks first
+                    player.Health = DmgCalc.EnemyAttack(badGuy.Attack, playerdefReduction, player.Health); // enemy attacks second
+
+                    Debug.Log("Player health: " + player.Health);
+
+                    Debug.Log("Enemy health: " + badGuy.Health);
+
+                }
+                else // If enemy speed is greater than player's, enenmy attacks first
+                {
+                    DefCheck defCheck = new DefCheck();
+                    double playerdefReduction = defCheck.DamageReduction(player.defense); // takes player's defense and returns the damage reduction
+                    double enemydefReduction = defCheck.DamageReduction(badGuy.defense); // does the same for the enemy
+
+                    player.Health = DmgCalc.EnemyAttack(badGuy.Attack, playerdefReduction, player.Health); // enemy attacks first
+                    badGuy.Health = DmgCalc.PlayerAttack(player.Attack, enemydefReduction, badGuy.Health); // player attacks second
+
+                    Debug.Log("Player health: " + player.Health);
+
+                    Debug.Log("Enemy health: " + badGuy.Health);
+                }
+
+=======
                 // Deduct healths
                 badGuy.Health -= player.Attack;
 
                 player.Health -= badGuy.Attack;
+>>>>>>> 3005fdbd378f7ee12fedc75fccee98b6682b7ca1
 
                 //Check whose health is 0
                 if (player.Health <= 0)
@@ -110,15 +148,30 @@ public class AttackButton : MonoBehaviour
                     player.FightCheck = false;
                     badGuy.FightCheck = false;
                     movement.enabled = true;
+<<<<<<< HEAD
+                    LvlUp expCheck = FindFirstObjectByType<LvlUp>(); 
+                    if (expCheck != null)
+                    {
+                        player.exp = expCheck.xpCheck(player.exp, badGuy.dropExp); // after enemy is defeated, gives player xp
+                    }
+                    else
+                    {
+                        Debug.LogError("LvlUp component not found brah");
+                    }
+=======
 
+>>>>>>> 3005fdbd378f7ee12fedc75fccee98b6682b7ca1
                 }
 
             }
             
 =======
+<<<<<<< HEAD
+=======
 >>>>>>> 73ac2a1efe8a031c05d42f95d05b11a266292936
 >>>>>>> f0b4c86ff1ffcadcdcf16aa7b94913ff608f2c59
 =======
+>>>>>>> 3005fdbd378f7ee12fedc75fccee98b6682b7ca1
 <<<<<<< HEAD
         if (PlayerInteract.speed >= EnemyInteract.speed) // if player's speed is greater or equal to enemy's, player attacks first
         {

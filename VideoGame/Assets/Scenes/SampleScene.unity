@@ -120,9 +120,12 @@ NavMeshSettings:
   m_NavMeshData: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 --- !u!1 &18608050
 =======
 >>>>>>> cdfab646b0eb6ec40da1d1bb24ae385a164a18a1
+>>>>>>> 3005fdbd378f7ee12fedc75fccee98b6682b7ca1
 =======
 --- !u!1 &79139007
 >>>>>>> main
@@ -478,6 +481,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 --- !u!1 &188423452
 GameObject:
   m_ObjectHideFlags: 0
@@ -614,10 +619,14 @@ SpriteRenderer:
   m_SpriteSortPoint: 0
 =======
 >>>>>>> cdfab646b0eb6ec40da1d1bb24ae385a164a18a1
+>>>>>>> 3005fdbd378f7ee12fedc75fccee98b6682b7ca1
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> main
+=======
 <<<<<<< HEAD
 >>>>>>> main
 =======
@@ -629,6 +638,7 @@ SpriteRenderer:
 >>>>>>> 73ac2a1efe8a031c05d42f95d05b11a266292936
 >>>>>>> f0b4c86ff1ffcadcdcf16aa7b94913ff608f2c59
 >>>>>>> cdfab646b0eb6ec40da1d1bb24ae385a164a18a1
+>>>>>>> 3005fdbd378f7ee12fedc75fccee98b6682b7ca1
 --- !u!1 &208522502
 GameObject:
   m_ObjectHideFlags: 0
@@ -838,6 +848,9 @@ Transform:
   m_GameObject: {fileID: 231776173}
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> 3005fdbd378f7ee12fedc75fccee98b6682b7ca1
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -6.0094585, y: 0.05210018, z: 0}
@@ -1009,7 +1022,10 @@ SpriteRenderer:
 =======
 --- !u!61 &334700529
 >>>>>>> main
+<<<<<<< HEAD
+=======
 >>>>>>> cdfab646b0eb6ec40da1d1bb24ae385a164a18a1
+>>>>>>> 3005fdbd378f7ee12fedc75fccee98b6682b7ca1
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1019,11 +1035,16 @@ BoxCollider2D:
   m_GameObject: {fileID: 231776173}
 =======
 <<<<<<< HEAD
+  m_GameObject: {fileID: 334700527}
+>>>>>>> main
+=======
+<<<<<<< HEAD
   m_GameObject: {fileID: 231776173}
 =======
   m_GameObject: {fileID: 334700527}
 >>>>>>> main
 >>>>>>> cdfab646b0eb6ec40da1d1bb24ae385a164a18a1
+>>>>>>> 3005fdbd378f7ee12fedc75fccee98b6682b7ca1
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
@@ -1066,10 +1087,21 @@ BoxCollider2D:
 <<<<<<< HEAD
 --- !u!1 &432761535
 GameObject:
+<<<<<<< HEAD
+=======
+--- !u!212 &334700530
+SpriteRenderer:
+>>>>>>> main
+=======
+>>>>>>> 3005fdbd378f7ee12fedc75fccee98b6682b7ca1
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3005fdbd378f7ee12fedc75fccee98b6682b7ca1
   serializedVersion: 6
   m_Component:
   - component: {fileID: 432761536}
@@ -1103,6 +1135,8 @@ Transform:
   - {fileID: 593976428}
   m_Father: {fileID: 1417129728}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
+=======
 --- !u!1 &447026749
 =======
   m_GameObject: {fileID: 244112294}
@@ -1166,6 +1200,7 @@ Transform:
   m_Father: {fileID: 463817385}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &447026751
+>>>>>>> 3005fdbd378f7ee12fedc75fccee98b6682b7ca1
 =======
   m_GameObject: {fileID: 334700527}
   serializedVersion: 2
@@ -1580,6 +1615,8 @@ Transform:
 =======
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
 =======
 >>>>>>> fa35998509d94b61d70a067ed67e63e7cdfa30bb
 >>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
@@ -1722,12 +1759,15 @@ RectTransform:
 =======
 <<<<<<< HEAD
   - {fileID: 122429051}
+<<<<<<< HEAD
+=======
 =======
 <<<<<<< HEAD
   - {fileID: 122429051}
 =======
 <<<<<<< HEAD
   - {fileID: 122429051}
+>>>>>>> 3005fdbd378f7ee12fedc75fccee98b6682b7ca1
 =======
 <<<<<<< HEAD
   - {fileID: 122429051}
@@ -1815,6 +1855,8 @@ Rigidbody2D:
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
   m_Mass: 1
 =======
 <<<<<<< HEAD
@@ -1822,6 +1864,7 @@ Rigidbody2D:
 =======
 <<<<<<< HEAD
 >>>>>>> cdfab646b0eb6ec40da1d1bb24ae385a164a18a1
+>>>>>>> 3005fdbd378f7ee12fedc75fccee98b6682b7ca1
   m_Mass: 1
 =======
 <<<<<<< HEAD
@@ -1988,10 +2031,14 @@ MonoBehaviour:
   m_EditorHideFlags: 0
 <<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: b0f4552e12d2de643b6b692ba4b27725, type: 3}
+<<<<<<< HEAD
+=======
   m_Name: 
   m_EditorClassIdentifier: 
+>>>>>>> 3005fdbd378f7ee12fedc75fccee98b6682b7ca1
 =======
   m_Script: {fileID: 11500000, guid: 8aa4046d0a937224dab0aa9d88ccb733, type: 3}
+>>>>>>> main
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &479855784
@@ -2003,12 +2050,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 479855777}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< HEAD
+  m_Script: {fileID: 11500000, guid: 15f2546513a24f24c85046f38502e506, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 479855783}
+  badGuy: {fileID: 0}
+=======
   m_Script: {fileID: 11500000, guid: a3037a12c7b36864fa9a8a8fe334115e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> main
+=======
 <<<<<<< HEAD
 >>>>>>> main
 =======
@@ -2024,6 +2081,7 @@ MonoBehaviour:
 >>>>>>> 73ac2a1efe8a031c05d42f95d05b11a266292936
 >>>>>>> f0b4c86ff1ffcadcdcf16aa7b94913ff608f2c59
 >>>>>>> cdfab646b0eb6ec40da1d1bb24ae385a164a18a1
+>>>>>>> 3005fdbd378f7ee12fedc75fccee98b6682b7ca1
 --- !u!1 &491875921
 GameObject:
   m_ObjectHideFlags: 0
@@ -2187,6 +2245,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 --- !u!1 &505552457
 GameObject:
   m_ObjectHideFlags: 0
@@ -2323,6 +2383,7 @@ SpriteRenderer:
   m_SpriteSortPoint: 0
 =======
 >>>>>>> cdfab646b0eb6ec40da1d1bb24ae385a164a18a1
+>>>>>>> 3005fdbd378f7ee12fedc75fccee98b6682b7ca1
 =======
 =======
 >>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
@@ -2346,11 +2407,14 @@ GameObject:
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> cdfab646b0eb6ec40da1d1bb24ae385a164a18a1
+>>>>>>> 3005fdbd378f7ee12fedc75fccee98b6682b7ca1
 =======
 <<<<<<< HEAD
   - component: {fileID: 519420033}
@@ -2496,6 +2560,9 @@ Transform:
 >>>>>>> main
 =======
 <<<<<<< HEAD
+>>>>>>> main
+=======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -2503,6 +2570,7 @@ Transform:
 >>>>>>> 73ac2a1efe8a031c05d42f95d05b11a266292936
 >>>>>>> f0b4c86ff1ffcadcdcf16aa7b94913ff608f2c59
 >>>>>>> cdfab646b0eb6ec40da1d1bb24ae385a164a18a1
+>>>>>>> 3005fdbd378f7ee12fedc75fccee98b6682b7ca1
 --- !u!114 &519420033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2787,6 +2855,8 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
   m_ApplyToSortingLayers: 00000000ed4decd9699f78f503aaed5167dd2f13edb308ef
 =======
 <<<<<<< HEAD
@@ -2794,6 +2864,7 @@ MonoBehaviour:
 =======
 <<<<<<< HEAD
 >>>>>>> cdfab646b0eb6ec40da1d1bb24ae385a164a18a1
+>>>>>>> 3005fdbd378f7ee12fedc75fccee98b6682b7ca1
   m_ApplyToSortingLayers: 00000000ed4decd9699f78f503aaed5167dd2f13edb308ef
 =======
 <<<<<<< HEAD
@@ -3034,6 +3105,8 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 --- !u!1 &686921747
 GameObject:
   m_ObjectHideFlags: 0
@@ -3170,6 +3243,7 @@ SpriteRenderer:
   m_SpriteSortPoint: 0
 =======
 >>>>>>> cdfab646b0eb6ec40da1d1bb24ae385a164a18a1
+>>>>>>> 3005fdbd378f7ee12fedc75fccee98b6682b7ca1
 --- !u!1 &806859660
 GameObject:
   m_ObjectHideFlags: 0
@@ -3459,9 +3533,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
   originalPosition: {x: 27.65, y: -1.45}
 =======
 >>>>>>> cdfab646b0eb6ec40da1d1bb24ae385a164a18a1
+>>>>>>> 3005fdbd378f7ee12fedc75fccee98b6682b7ca1
 --- !u!50 &854030488
 Rigidbody2D:
   serializedVersion: 5
@@ -3636,6 +3713,8 @@ Transform:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 --- !u!1 &985081868
 GameObject:
   m_ObjectHideFlags: 0
@@ -3772,6 +3851,7 @@ SpriteRenderer:
   m_SpriteSortPoint: 0
 =======
 >>>>>>> cdfab646b0eb6ec40da1d1bb24ae385a164a18a1
+>>>>>>> 3005fdbd378f7ee12fedc75fccee98b6682b7ca1
 --- !u!1 &1014073273
 GameObject:
   m_ObjectHideFlags: 0
@@ -4000,12 +4080,17 @@ Tilemap:
     second:
       serializedVersion: 2
 <<<<<<< HEAD
+      m_TileIndex: 6
+      m_TileSpriteIndex: 6
+=======
+<<<<<<< HEAD
       m_TileIndex: 12
       m_TileSpriteIndex: 12
 =======
       m_TileIndex: 6
       m_TileSpriteIndex: 6
 >>>>>>> cdfab646b0eb6ec40da1d1bb24ae385a164a18a1
+>>>>>>> 3005fdbd378f7ee12fedc75fccee98b6682b7ca1
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -4445,12 +4530,17 @@ Tilemap:
     second:
       serializedVersion: 2
 <<<<<<< HEAD
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+=======
+<<<<<<< HEAD
       m_TileIndex: 12
       m_TileSpriteIndex: 12
 =======
       m_TileIndex: 1
       m_TileSpriteIndex: 1
 >>>>>>> cdfab646b0eb6ec40da1d1bb24ae385a164a18a1
+>>>>>>> 3005fdbd378f7ee12fedc75fccee98b6682b7ca1
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -10037,6 +10127,8 @@ Tilemap:
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
   - first: {x: -11, y: 7, z: 0}
     second:
       serializedVersion: 2
@@ -13119,10 +13211,13 @@ Tilemap:
       m_AllTileFlags: 1073741825
 =======
 >>>>>>> cdfab646b0eb6ec40da1d1bb24ae385a164a18a1
+>>>>>>> 3005fdbd378f7ee12fedc75fccee98b6682b7ca1
   m_AnimatedTiles: {}
   m_TileAssetArray:
   - m_RefCount: 0
     m_Data: {fileID: 0}
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
   - m_RefCount: 46
     m_Data: {fileID: 11400000, guid: 72f5c1fe3d776bd42929200ec561d608, type: 2}
@@ -13148,6 +13243,7 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: e4cd0f722d21d854684b92cd795e9031, type: 2}
   - m_RefCount: 148
 =======
+>>>>>>> 3005fdbd378f7ee12fedc75fccee98b6682b7ca1
   - m_RefCount: 32
     m_Data: {fileID: 11400000, guid: 72f5c1fe3d776bd42929200ec561d608, type: 2}
   - m_RefCount: 34
@@ -13171,7 +13267,10 @@ Tilemap:
   - m_RefCount: 92
     m_Data: {fileID: 11400000, guid: e4cd0f722d21d854684b92cd795e9031, type: 2}
   - m_RefCount: 96
+<<<<<<< HEAD
+=======
 >>>>>>> cdfab646b0eb6ec40da1d1bb24ae385a164a18a1
+>>>>>>> 3005fdbd378f7ee12fedc75fccee98b6682b7ca1
     m_Data: {fileID: 11400000, guid: 1b4e6dee84a0403489a61e703b2d530b, type: 2}
   - m_RefCount: 0
     m_Data: {fileID: 0}
@@ -13193,6 +13292,8 @@ Tilemap:
   - m_RefCount: 0
     m_Data: {fileID: 0}
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
   - m_RefCount: 46
     m_Data: {fileID: 1759488364, guid: 12f6832a95aa239499eb838c9bbf917e, type: 3}
   - m_RefCount: 51
@@ -13217,6 +13318,7 @@ Tilemap:
     m_Data: {fileID: 1882706539, guid: 12f6832a95aa239499eb838c9bbf917e, type: 3}
   - m_RefCount: 148
 =======
+>>>>>>> 3005fdbd378f7ee12fedc75fccee98b6682b7ca1
   - m_RefCount: 32
     m_Data: {fileID: 1759488364, guid: 12f6832a95aa239499eb838c9bbf917e, type: 3}
   - m_RefCount: 34
@@ -13240,7 +13342,10 @@ Tilemap:
   - m_RefCount: 92
     m_Data: {fileID: 1882706539, guid: 12f6832a95aa239499eb838c9bbf917e, type: 3}
   - m_RefCount: 96
+<<<<<<< HEAD
+=======
 >>>>>>> cdfab646b0eb6ec40da1d1bb24ae385a164a18a1
+>>>>>>> 3005fdbd378f7ee12fedc75fccee98b6682b7ca1
     m_Data: {fileID: -428000508, guid: 12f6832a95aa239499eb838c9bbf917e, type: 3}
   - m_RefCount: 0
     m_Data: {fileID: 0}
@@ -13260,10 +13365,14 @@ Tilemap:
     m_Data: {fileID: 0}
   m_TileMatrixArray:
 <<<<<<< HEAD
+  - m_RefCount: 616
+=======
+<<<<<<< HEAD
   - m_RefCount: 924
 =======
   - m_RefCount: 616
 >>>>>>> cdfab646b0eb6ec40da1d1bb24ae385a164a18a1
+>>>>>>> 3005fdbd378f7ee12fedc75fccee98b6682b7ca1
     m_Data:
       e00: 1
       e01: 0
@@ -13283,20 +13392,28 @@ Tilemap:
       e33: 1
   m_TileColorArray:
 <<<<<<< HEAD
+  - m_RefCount: 616
+=======
+<<<<<<< HEAD
   - m_RefCount: 924
 =======
   - m_RefCount: 616
 >>>>>>> cdfab646b0eb6ec40da1d1bb24ae385a164a18a1
+>>>>>>> 3005fdbd378f7ee12fedc75fccee98b6682b7ca1
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Origin: {x: -13, y: -7, z: 0}
 <<<<<<< HEAD
+  m_Size: {x: 46, y: 21, z: 1}
+=======
+<<<<<<< HEAD
   m_Size: {x: 46, y: 28, z: 1}
 =======
   m_Size: {x: 46, y: 21, z: 1}
 >>>>>>> cdfab646b0eb6ec40da1d1bb24ae385a164a18a1
+>>>>>>> 3005fdbd378f7ee12fedc75fccee98b6682b7ca1
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -13316,6 +13433,8 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 --- !u!1 &1035534321
 GameObject:
@@ -13587,6 +13706,7 @@ SpriteRenderer:
   m_SpriteSortPoint: 0
 =======
 >>>>>>> cdfab646b0eb6ec40da1d1bb24ae385a164a18a1
+>>>>>>> 3005fdbd378f7ee12fedc75fccee98b6682b7ca1
 --- !u!1 &1139639280
 GameObject:
   m_ObjectHideFlags: 0
@@ -13725,11 +13845,14 @@ SpriteRenderer:
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> cdfab646b0eb6ec40da1d1bb24ae385a164a18a1
+>>>>>>> 3005fdbd378f7ee12fedc75fccee98b6682b7ca1
 =======
 <<<<<<< HEAD
 =======
@@ -14784,9 +14907,12 @@ Transform:
   m_Children:
   - {fileID: 432761536}
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
   - {fileID: 463817385}
 =======
 >>>>>>> cdfab646b0eb6ec40da1d1bb24ae385a164a18a1
+>>>>>>> 3005fdbd378f7ee12fedc75fccee98b6682b7ca1
   - {fileID: 1866173235}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -15126,6 +15252,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
+<<<<<<< HEAD
+  player: {fileID: 0}
+=======
+>>>>>>> 3005fdbd378f7ee12fedc75fccee98b6682b7ca1
 --- !u!1 &1759787647
 GameObject:
   m_ObjectHideFlags: 0
@@ -15264,6 +15394,8 @@ SpriteRenderer:
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
   damageNum: {fileID: 5033424578475317767, guid: 90ece5bcf8111184e982f3cf76a8ffe6, type: 3}
   enemy: {fileID: 1771957364}
 =======
@@ -15273,6 +15405,7 @@ SpriteRenderer:
 =======
 <<<<<<< HEAD
 >>>>>>> cdfab646b0eb6ec40da1d1bb24ae385a164a18a1
+>>>>>>> 3005fdbd378f7ee12fedc75fccee98b6682b7ca1
   damageNum: {fileID: 5033424578475317767, guid: 90ece5bcf8111184e982f3cf76a8ffe6, type: 3}
   enemy: {fileID: 1771957364}
 =======
@@ -15330,6 +15463,8 @@ Rigidbody2D:
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
   m_Mass: 1
 =======
 <<<<<<< HEAD
@@ -15337,6 +15472,7 @@ Rigidbody2D:
 =======
 <<<<<<< HEAD
 >>>>>>> cdfab646b0eb6ec40da1d1bb24ae385a164a18a1
+>>>>>>> 3005fdbd378f7ee12fedc75fccee98b6682b7ca1
   m_Mass: 1
 =======
 <<<<<<< HEAD
@@ -15498,6 +15634,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
   originalPosition: {x: 11.63, y: -4.55}
 --- !u!1 &1775133529
 GameObject:
@@ -15540,6 +15678,7 @@ RectTransform:
   m_Pivot: {x: 0.5, y: 0.5}
 =======
 >>>>>>> cdfab646b0eb6ec40da1d1bb24ae385a164a18a1
+>>>>>>> 3005fdbd378f7ee12fedc75fccee98b6682b7ca1
 --- !u!1 &1775663427
 GameObject:
   m_ObjectHideFlags: 0
@@ -15674,6 +15813,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 --- !u!1 &1779229586
 GameObject:
@@ -15824,6 +15965,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 =======
 >>>>>>> cdfab646b0eb6ec40da1d1bb24ae385a164a18a1
+>>>>>>> 3005fdbd378f7ee12fedc75fccee98b6682b7ca1
 --- !u!1 &1856638596
 GameObject:
   m_ObjectHideFlags: 0
@@ -16132,6 +16274,8 @@ Transform:
   m_Father: {fileID: 1417129728}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 --- !u!1 &1915548685
 GameObject:
   m_ObjectHideFlags: 0
@@ -16268,6 +16412,7 @@ SpriteRenderer:
   m_SpriteSortPoint: 0
 =======
 >>>>>>> cdfab646b0eb6ec40da1d1bb24ae385a164a18a1
+>>>>>>> 3005fdbd378f7ee12fedc75fccee98b6682b7ca1
 --- !u!1 &1974048110
 GameObject:
   m_ObjectHideFlags: 0
@@ -16558,6 +16703,8 @@ GameObject:
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
   m_Layer: 0
 =======
 <<<<<<< HEAD
@@ -16565,6 +16712,7 @@ GameObject:
 =======
 <<<<<<< HEAD
 >>>>>>> cdfab646b0eb6ec40da1d1bb24ae385a164a18a1
+>>>>>>> 3005fdbd378f7ee12fedc75fccee98b6682b7ca1
   m_Layer: 0
 =======
 <<<<<<< HEAD
@@ -16792,9 +16940,12 @@ SceneRoots:
   - {fileID: 1417129728}
   - {fileID: 806859662}
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
   - {fileID: 1779229589}
 =======
 >>>>>>> cdfab646b0eb6ec40da1d1bb24ae385a164a18a1
+>>>>>>> 3005fdbd378f7ee12fedc75fccee98b6682b7ca1
 =======
   - {fileID: 79139008}
   - {fileID: 1313401288}
