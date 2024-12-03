@@ -14,6 +14,7 @@ public class RunButton : MonoBehaviour
     private Button myButton; // A variable to hold the Button Component
     private Image myImage;  // A variable to hold the Image Component
 
+<<<<<<< HEAD
     private MovementScript movement;// Variable for the movement of the player
 
     private PlayerScript player;// Variable to find player
@@ -37,22 +38,40 @@ public class RunButton : MonoBehaviour
 
         //Find the movement script for the player
         movement = FindAnyObjectByType<MovementScript>();
+=======
+    // Initiate and disable the Button and Image components
+    void Awake()
+    {
+        myButton = GetComponent<Button>();
+        myButton.enabled = CombatScript.fightCheck;
+
+        myImage = GetComponent<Image>();
+        myImage.enabled = CombatScript.fightCheck;
+>>>>>>> main
 
     }
 
     // Update to see if the Button and Image component needs to be enabled
     void Update()
     {
+<<<<<<< HEAD
         // The buttons and image is enabled depending if the player is in combat or not
         myButton.enabled = player.FightCheck;
 
         myImage.enabled = player.FightCheck;
+=======
+
+        myButton.enabled = CombatScript.fightCheck;
+
+        myImage.enabled = CombatScript.fightCheck;
+>>>>>>> main
 
     }
 
     // Function that activates when clicked. Disengaes the fight
     public void run()
     {
+<<<<<<< HEAD
         //Player exits combat and can move again
         player.FightCheck = false;
 
@@ -68,6 +87,13 @@ public class RunButton : MonoBehaviour
 
 
         }
+=======
+        CombatScript.fightCheck = false;
+
+        CombatScript.movement.enabled = true;
+
+        Debug.Log("Disengage Combat");
+>>>>>>> main
     }
 
     
