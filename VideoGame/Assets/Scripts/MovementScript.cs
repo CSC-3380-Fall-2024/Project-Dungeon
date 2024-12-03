@@ -5,7 +5,10 @@ using UnityEngine;
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 >>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
+>>>>>>> main
 >>>>>>> main
 /*
  * Author: Ryan Tin Tran
@@ -17,9 +20,12 @@ using UnityEngine;
 =======
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
 =======
 >>>>>>> fa35998509d94b61d70a067ed67e63e7cdfa30bb
 >>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
+>>>>>>> main
 >>>>>>> main
 public class MovementScript : MonoBehaviour
 {
@@ -50,8 +56,12 @@ public class MovementScript : MonoBehaviour
 <<<<<<< HEAD
 
 =======
+<<<<<<< HEAD
+
+=======
 >>>>>>> fa35998509d94b61d70a067ed67e63e7cdfa30bb
 >>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
+>>>>>>> main
 >>>>>>> main
     void FixedUpdate()
     {
