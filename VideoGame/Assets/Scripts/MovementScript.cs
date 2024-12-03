@@ -1,5 +1,14 @@
 using UnityEngine;
 
+<<<<<<< HEAD
+/*
+ * Author: Ryan Tin Tran
+ * Last Updated: 11/7/2024
+ * Description: Enables movement for the player
+ */
+
+=======
+>>>>>>> fa35998509d94b61d70a067ed67e63e7cdfa30bb
 public class MovementScript : MonoBehaviour
 {
     // Public variables
@@ -20,6 +29,10 @@ public class MovementScript : MonoBehaviour
         float verticalInput = Input.GetAxisRaw("Vertical");// Grabs a number between -1 and 1 when the player presses "w" (up) or "s" (down)
         movement = new Vector2(horizontalInput, verticalInput); // Insert the inputs into movement
     }
+<<<<<<< HEAD
+
+=======
+>>>>>>> fa35998509d94b61d70a067ed67e63e7cdfa30bb
     void FixedUpdate()
     {
         if (Input.GetKey(KeyCode.LeftShift))
