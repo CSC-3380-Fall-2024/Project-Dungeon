@@ -151,6 +151,7 @@ Transform:
   - {fileID: 1371629869}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &122429050
 GameObject:
   m_ObjectHideFlags: 0
@@ -300,6 +301,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 122429050}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> fa35998509d94b61d70a067ed67e63e7cdfa30bb
 --- !u!1 &244112294
 GameObject:
   m_ObjectHideFlags: 0
@@ -480,7 +483,10 @@ GameObject:
   - component: {fileID: 458605042}
   - component: {fileID: 458605044}
   - component: {fileID: 458605043}
+<<<<<<< HEAD
   - component: {fileID: 458605045}
+=======
+>>>>>>> fa35998509d94b61d70a067ed67e63e7cdfa30bb
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -514,7 +520,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 458605041}
+<<<<<<< HEAD
   m_Enabled: 0
+=======
+  m_Enabled: 1
+>>>>>>> fa35998509d94b61d70a067ed67e63e7cdfa30bb
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
@@ -608,6 +618,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 458605041}
   m_CullTransparentMesh: 1
+<<<<<<< HEAD
 --- !u!114 &458605045
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -620,6 +631,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e9444c82789b834382c47a8c240164e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+>>>>>>> fa35998509d94b61d70a067ed67e63e7cdfa30bb
 --- !u!1 &473727571
 GameObject:
   m_ObjectHideFlags: 0
@@ -632,6 +645,10 @@ GameObject:
   - component: {fileID: 473727574}
   - component: {fileID: 473727573}
   - component: {fileID: 473727572}
+<<<<<<< HEAD
+=======
+  - component: {fileID: 473727576}
+>>>>>>> fa35998509d94b61d70a067ed67e63e7cdfa30bb
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -699,7 +716,11 @@ Canvas:
   m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
+<<<<<<< HEAD
   m_SortingLayerID: -284642323
+=======
+  m_SortingLayerID: -176644247
+>>>>>>> fa35998509d94b61d70a067ed67e63e7cdfa30bb
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!224 &473727575
@@ -716,7 +737,10 @@ RectTransform:
   m_Children:
   - {fileID: 1661204179}
   - {fileID: 1174145218}
+<<<<<<< HEAD
   - {fileID: 122429051}
+=======
+>>>>>>> fa35998509d94b61d70a067ed67e63e7cdfa30bb
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -724,6 +748,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+<<<<<<< HEAD
+=======
+--- !u!114 &473727576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 473727571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5b7b8b9b59987c4b8d21af0bab968f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+>>>>>>> fa35998509d94b61d70a067ed67e63e7cdfa30bb
 --- !u!1 &479855777
 GameObject:
   m_ObjectHideFlags: 0
@@ -1233,7 +1272,11 @@ MonoBehaviour:
   m_Intensity: 1
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
+<<<<<<< HEAD
   m_ApplyToSortingLayers: 00000000ed4decd9699f78f503aaed5167dd2f13edb308ef
+=======
+  m_ApplyToSortingLayers: 00000000ed4decd9699f78f503aaed5167dd2f13
+>>>>>>> fa35998509d94b61d70a067ed67e63e7cdfa30bb
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
@@ -1425,7 +1468,10 @@ GameObject:
   - component: {fileID: 848512232}
   - component: {fileID: 848512234}
   - component: {fileID: 848512233}
+<<<<<<< HEAD
   - component: {fileID: 848512235}
+=======
+>>>>>>> fa35998509d94b61d70a067ed67e63e7cdfa30bb
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -1459,7 +1505,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 848512231}
+<<<<<<< HEAD
   m_Enabled: 0
+=======
+  m_Enabled: 1
+>>>>>>> fa35998509d94b61d70a067ed67e63e7cdfa30bb
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
@@ -1553,6 +1603,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 848512231}
   m_CullTransparentMesh: 1
+<<<<<<< HEAD
 --- !u!114 &848512235
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1565,6 +1616,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e9444c82789b834382c47a8c240164e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+>>>>>>> fa35998509d94b61d70a067ed67e63e7cdfa30bb
 --- !u!1 &1174145217
 GameObject:
   m_ObjectHideFlags: 0
@@ -1579,7 +1632,11 @@ GameObject:
   - component: {fileID: 1174145219}
   - component: {fileID: 1174145222}
   m_Layer: 5
+<<<<<<< HEAD
   m_Name: buttonRun
+=======
+  m_Name: RunButton
+>>>>>>> fa35998509d94b61d70a067ed67e63e7cdfa30bb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1668,7 +1725,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1174145217}
+<<<<<<< HEAD
   m_Enabled: 0
+=======
+  m_Enabled: 1
+>>>>>>> fa35998509d94b61d70a067ed67e63e7cdfa30bb
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -1932,7 +1993,11 @@ GameObject:
   - component: {fileID: 1661204180}
   - component: {fileID: 1661204183}
   m_Layer: 5
+<<<<<<< HEAD
   m_Name: buttonAttack
+=======
+  m_Name: AttackButton
+>>>>>>> fa35998509d94b61d70a067ed67e63e7cdfa30bb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2021,7 +2086,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1661204178}
+<<<<<<< HEAD
   m_Enabled: 0
+=======
+  m_Enabled: 1
+>>>>>>> fa35998509d94b61d70a067ed67e63e7cdfa30bb
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -2064,8 +2133,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24ef2eca579cddc47bfb11bfb3e3dc46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   damageNum: {fileID: 5033424578475317767, guid: 90ece5bcf8111184e982f3cf76a8ffe6, type: 3}
   enemy: {fileID: 1771957364}
+=======
+>>>>>>> fa35998509d94b61d70a067ed67e63e7cdfa30bb
 --- !u!1 &1771957364
 GameObject:
   m_ObjectHideFlags: 0
