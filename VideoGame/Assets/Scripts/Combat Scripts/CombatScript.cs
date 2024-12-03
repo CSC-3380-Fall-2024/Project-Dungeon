@@ -28,10 +28,13 @@ public class CombatScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+<<<<<<< HEAD
+=======
         //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         // Non-combat if statements
         //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+>>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
 
         // Update the distance between the player and  in non-combat
         if (fightCheck == false)
@@ -47,6 +50,8 @@ public class CombatScript : MonoBehaviour
             fightCheck = true;
 
             movement.enabled = false;
+<<<<<<< HEAD
+=======
 
             Debug.Log("Engage Combat");
             Debug.Log("Player health: " + PlayerInteract.health);
@@ -55,6 +60,7 @@ public class CombatScript : MonoBehaviour
             defReduction = (1 - defReduction)*100;
             Debug.Log("Player has " + defReduction + "% Damage Reduction");
             Debug.Log(" health: " + EnemyInteract.health);
+>>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
         }
 
         

@@ -1,14 +1,20 @@
 using UnityEngine;
 
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
 /*
  * Author: Ryan Tin Tran
  * Last Updated: 11/7/2024
  * Description: Enables movement for the player
  */
 
+<<<<<<< HEAD
+=======
 =======
 >>>>>>> fa35998509d94b61d70a067ed67e63e7cdfa30bb
+>>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
 public class MovementScript : MonoBehaviour
 {
     // Public variables
@@ -32,7 +38,11 @@ public class MovementScript : MonoBehaviour
 <<<<<<< HEAD
 
 =======
+<<<<<<< HEAD
+
+=======
 >>>>>>> fa35998509d94b61d70a067ed67e63e7cdfa30bb
+>>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
     void FixedUpdate()
     {
         if (Input.GetKey(KeyCode.LeftShift))
