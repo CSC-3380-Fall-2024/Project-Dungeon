@@ -154,7 +154,10 @@ Transform:
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 >>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
+>>>>>>> main
 --- !u!1 &122429050
 GameObject:
   m_ObjectHideFlags: 0
@@ -304,6 +307,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 122429050}
   m_CullTransparentMesh: 1
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 --- !u!1 &208522502
 GameObject:
@@ -458,6 +463,7 @@ MonoBehaviour:
 =======
 >>>>>>> fa35998509d94b61d70a067ed67e63e7cdfa30bb
 >>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
+>>>>>>> main
 --- !u!1 &244112294
 GameObject:
   m_ObjectHideFlags: 0
@@ -644,8 +650,12 @@ GameObject:
 <<<<<<< HEAD
   - component: {fileID: 458605045}
 =======
+<<<<<<< HEAD
+  - component: {fileID: 458605045}
+=======
 >>>>>>> fa35998509d94b61d70a067ed67e63e7cdfa30bb
 >>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
+>>>>>>> main
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -685,9 +695,13 @@ MonoBehaviour:
 <<<<<<< HEAD
   m_Enabled: 0
 =======
+<<<<<<< HEAD
+  m_Enabled: 0
+=======
   m_Enabled: 1
 >>>>>>> fa35998509d94b61d70a067ed67e63e7cdfa30bb
 >>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
+>>>>>>> main
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
@@ -784,7 +798,10 @@ CanvasRenderer:
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 >>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
+>>>>>>> main
 --- !u!114 &458605045
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -799,9 +816,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
 =======
 >>>>>>> fa35998509d94b61d70a067ed67e63e7cdfa30bb
 >>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
+>>>>>>> main
 --- !u!1 &473727571
 GameObject:
   m_ObjectHideFlags: 0
@@ -818,9 +838,12 @@ GameObject:
 =======
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
   - component: {fileID: 473727576}
 >>>>>>> fa35998509d94b61d70a067ed67e63e7cdfa30bb
 >>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
+>>>>>>> main
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -894,9 +917,13 @@ Canvas:
 <<<<<<< HEAD
   m_SortingLayerID: -284642323
 =======
+<<<<<<< HEAD
+  m_SortingLayerID: -284642323
+=======
   m_SortingLayerID: -176644247
 >>>>>>> fa35998509d94b61d70a067ed67e63e7cdfa30bb
 >>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
+>>>>>>> main
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!224 &473727575
@@ -915,6 +942,9 @@ RectTransform:
   - {fileID: 1174145218}
 <<<<<<< HEAD
   - {fileID: 122429051}
+=======
+<<<<<<< HEAD
+  - {fileID: 122429051}
   - {fileID: 491875922}
   - {fileID: 208522503}
 =======
@@ -923,6 +953,7 @@ RectTransform:
 =======
 >>>>>>> fa35998509d94b61d70a067ed67e63e7cdfa30bb
 >>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
+>>>>>>> main
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -930,6 +961,8 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -948,6 +981,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 >>>>>>> fa35998509d94b61d70a067ed67e63e7cdfa30bb
 >>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
+>>>>>>> main
 --- !u!1 &479855777
 GameObject:
   m_ObjectHideFlags: 0
@@ -983,10 +1017,14 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
 <<<<<<< HEAD
+  m_Mass: 1
+=======
+<<<<<<< HEAD
   m_Mass: 1000
 =======
   m_Mass: 1
 >>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
+>>>>>>> main
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 0
@@ -1154,6 +1192,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 --- !u!1 &491875921
 GameObject:
   m_ObjectHideFlags: 0
@@ -1305,6 +1345,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 =======
 >>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
+>>>>>>> main
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1318,9 +1359,12 @@ GameObject:
   - component: {fileID: 519420029}
   - component: {fileID: 519420030}
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
   - component: {fileID: 519420033}
 =======
 >>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
+>>>>>>> main
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1447,6 +1491,8 @@ Transform:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 --- !u!114 &519420033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1461,6 +1507,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 =======
 >>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
+>>>>>>> main
 --- !u!1 &523020839
 GameObject:
   m_ObjectHideFlags: 0
@@ -1638,9 +1685,13 @@ MonoBehaviour:
 <<<<<<< HEAD
   m_ApplyToSortingLayers: 00000000ed4decd9699f78f503aaed5167dd2f13edb308ef
 =======
+<<<<<<< HEAD
+  m_ApplyToSortingLayers: 00000000ed4decd9699f78f503aaed5167dd2f13edb308ef
+=======
   m_ApplyToSortingLayers: 00000000ed4decd9699f78f503aaed5167dd2f13
 >>>>>>> fa35998509d94b61d70a067ed67e63e7cdfa30bb
 >>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
+>>>>>>> main
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
@@ -1838,8 +1889,12 @@ GameObject:
 <<<<<<< HEAD
   - component: {fileID: 848512235}
 =======
+<<<<<<< HEAD
+  - component: {fileID: 848512235}
+=======
 >>>>>>> fa35998509d94b61d70a067ed67e63e7cdfa30bb
 >>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
+>>>>>>> main
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -1879,9 +1934,13 @@ MonoBehaviour:
 <<<<<<< HEAD
   m_Enabled: 0
 =======
+<<<<<<< HEAD
+  m_Enabled: 0
+=======
   m_Enabled: 1
 >>>>>>> fa35998509d94b61d70a067ed67e63e7cdfa30bb
 >>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
+>>>>>>> main
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
@@ -1978,7 +2037,10 @@ CanvasRenderer:
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 >>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
+>>>>>>> main
 --- !u!114 &848512235
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1993,9 +2055,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
 =======
 >>>>>>> fa35998509d94b61d70a067ed67e63e7cdfa30bb
 >>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
+>>>>>>> main
 --- !u!1 &1174145217
 GameObject:
   m_ObjectHideFlags: 0
@@ -2016,9 +2081,13 @@ GameObject:
 <<<<<<< HEAD
   m_Name: buttonRun
 =======
+<<<<<<< HEAD
+  m_Name: buttonRun
+=======
   m_Name: RunButton
 >>>>>>> fa35998509d94b61d70a067ed67e63e7cdfa30bb
 >>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
+>>>>>>> main
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2113,9 +2182,13 @@ MonoBehaviour:
 <<<<<<< HEAD
   m_Enabled: 0
 =======
+<<<<<<< HEAD
+  m_Enabled: 0
+=======
   m_Enabled: 1
 >>>>>>> fa35998509d94b61d70a067ed67e63e7cdfa30bb
 >>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
+>>>>>>> main
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -2385,9 +2458,13 @@ GameObject:
 <<<<<<< HEAD
   m_Name: buttonAttack
 =======
+<<<<<<< HEAD
+  m_Name: buttonAttack
+=======
   m_Name: AttackButton
 >>>>>>> fa35998509d94b61d70a067ed67e63e7cdfa30bb
 >>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
+>>>>>>> main
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2482,9 +2559,13 @@ MonoBehaviour:
 <<<<<<< HEAD
   m_Enabled: 0
 =======
+<<<<<<< HEAD
+  m_Enabled: 0
+=======
   m_Enabled: 1
 >>>>>>> fa35998509d94b61d70a067ed67e63e7cdfa30bb
 >>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
+>>>>>>> main
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -2535,8 +2616,13 @@ MonoBehaviour:
   damageNum: {fileID: 5033424578475317767, guid: 90ece5bcf8111184e982f3cf76a8ffe6, type: 3}
   enemy: {fileID: 1771957364}
 =======
+<<<<<<< HEAD
+  damageNum: {fileID: 5033424578475317767, guid: 90ece5bcf8111184e982f3cf76a8ffe6, type: 3}
+  enemy: {fileID: 1771957364}
+=======
 >>>>>>> fa35998509d94b61d70a067ed67e63e7cdfa30bb
 >>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
+>>>>>>> main
 --- !u!1 &1771957364
 GameObject:
   m_ObjectHideFlags: 0
@@ -2570,10 +2656,14 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
 <<<<<<< HEAD
+  m_Mass: 1
+=======
+<<<<<<< HEAD
   m_Mass: 1000
 =======
   m_Mass: 1
 >>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
+>>>>>>> main
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 0
@@ -2728,10 +2818,14 @@ GameObject:
   - component: {fileID: 2008726126}
   - component: {fileID: 2008726125}
 <<<<<<< HEAD
+  m_Layer: 0
+=======
+<<<<<<< HEAD
   m_Layer: 5
 =======
   m_Layer: 0
 >>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
+>>>>>>> main
   m_Name: EventSystem
   m_TagString: Untagged
   m_Icon: {fileID: 0}

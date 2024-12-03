@@ -3,7 +3,10 @@ using UnityEngine;
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 >>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
+>>>>>>> main
 /*
  * Author: Ryan Tin Tran
  * Last Updated: 11/7/2024
@@ -12,9 +15,12 @@ using UnityEngine;
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
 =======
 >>>>>>> fa35998509d94b61d70a067ed67e63e7cdfa30bb
 >>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
+>>>>>>> main
 public class MovementScript : MonoBehaviour
 {
     // Public variables
@@ -41,8 +47,12 @@ public class MovementScript : MonoBehaviour
 <<<<<<< HEAD
 
 =======
+<<<<<<< HEAD
+
+=======
 >>>>>>> fa35998509d94b61d70a067ed67e63e7cdfa30bb
 >>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
+>>>>>>> main
     void FixedUpdate()
     {
         if (Input.GetKey(KeyCode.LeftShift))

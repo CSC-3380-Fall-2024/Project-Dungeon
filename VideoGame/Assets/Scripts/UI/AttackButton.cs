@@ -45,6 +45,18 @@ public class AttackButton : MonoBehaviour
     public void attack()
     {
 <<<<<<< HEAD
+        if (PlayerInteract.speed >= EnemyInteract.speed) // if player's speed is greater or equal to enemy's, player attacks first
+        {
+            EnemyInteract.health -= PlayerInteract.attack;
+
+            Debug.Log("Player dealt: " + PlayerInteract.attack);
+
+            PlayerInteract.health -= EnemyInteract.attack;
+
+            Debug.Log("Enemy dealt: " + EnemyInteract.attack);
+
+=======
+<<<<<<< HEAD
 
         EnemyInteract.health -= PlayerInteract.attack;
 
@@ -67,6 +79,7 @@ public class AttackButton : MonoBehaviour
 
             EnemyInteract.health = DmgCalc.PlayerAttack(PlayerInteract.attack, enemydefReduction, EnemyInteract.health); // player attacks first
             PlayerInteract.health = DmgCalc.EnemyAttack(EnemyInteract.attack, playerdefReduction, PlayerInteract.health); // enemy attacks second
+>>>>>>> main
 
             Debug.Log("Player health: " + PlayerInteract.health);
 
@@ -76,6 +89,13 @@ public class AttackButton : MonoBehaviour
 
         else // If enemy speed is greater than player's, enenmy attacks first
         {
+<<<<<<< HEAD
+            PlayerInteract.health -= EnemyInteract.attack;
+            Debug.Log("Enemy dealt: " + EnemyInteract.attack);
+
+            EnemyInteract.health -= PlayerInteract.attack;
+            Debug.Log("Player dealt: " + PlayerInteract.attack);
+=======
             //PlayerInteract.health -= EnemyInteract.attack;
             //Debug.Log("Enemy dealt: " + EnemyInteract.attack);
 
@@ -88,20 +108,29 @@ public class AttackButton : MonoBehaviour
 
             PlayerInteract.health = DmgCalc.EnemyAttack(EnemyInteract.attack, playerdefReduction, PlayerInteract.health); // enemy attacks first
             EnemyInteract.health = DmgCalc.PlayerAttack(PlayerInteract.attack, enemydefReduction, EnemyInteract.health); // player attacks second
+>>>>>>> main
 
             Debug.Log("Player health: " + PlayerInteract.health);
             Debug.Log("Enemy health: " + EnemyInteract.health);
         }
+<<<<<<< HEAD
+=======
 >>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
+>>>>>>> main
 
         //Check whose health is 0
         if (PlayerInteract.health <= 0)
         {
 <<<<<<< HEAD
+
+            Debug.Log("Player is defeated");
+=======
+<<<<<<< HEAD
 =======
 
             Debug.Log("Player is defeated");
 >>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
+>>>>>>> main
             CombatScript.fightCheck = false;
             CombatScript.movement.enabled = true;
 
@@ -110,18 +139,24 @@ public class AttackButton : MonoBehaviour
         else if (EnemyInteract.health <= 0)
         {
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
             Destroy(enemy);
             CombatScript.fightCheck = false;
             CombatScript.movement.enabled = true;
 =======
+>>>>>>> main
 
             Debug.Log("Enemy is defeated");
             Destroy(enemy);
             CombatScript.fightCheck = false;
             CombatScript.movement.enabled = true;
+<<<<<<< HEAD
+=======
             LvlUp expCheck = new LvlUp();
             PlayerInteract.exp = expCheck.xpCheck(PlayerInteract.exp, EnemyInteract.dropExp); // after enemy is defeated, gives player xp
 >>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
+>>>>>>> main
 
         }
 
