@@ -83,6 +83,8 @@ public class AttackButton : MonoBehaviour
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
         foreach (EnemyScript badGuy in enemy)// Iterate through all enemies
         {
             if (badGuy.FightCheck == true && player.FightCheck == true)// Make sure the enemy is in combat
@@ -115,6 +117,7 @@ public class AttackButton : MonoBehaviour
             
 =======
 >>>>>>> 73ac2a1efe8a031c05d42f95d05b11a266292936
+>>>>>>> f0b4c86ff1ffcadcdcf16aa7b94913ff608f2c59
 =======
 <<<<<<< HEAD
         if (PlayerInteract.speed >= EnemyInteract.speed) // if player's speed is greater or equal to enemy's, player attacks first
@@ -244,6 +247,10 @@ public class AttackButton : MonoBehaviour
             Destroy(enemy);
             CombatScript.fightCheck = false;
             CombatScript.movement.enabled = true;
+<<<<<<< HEAD
+            LvlUp expCheck = new LvlUp();
+            PlayerInteract.exp = expCheck.xpCheck(PlayerInteract.exp, EnemyInteract.dropExp); // after enemy is defeated, gives player xp
+=======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD

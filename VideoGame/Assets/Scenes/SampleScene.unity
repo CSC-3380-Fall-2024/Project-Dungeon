@@ -337,9 +337,12 @@ MonoBehaviour:
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 >>>>>>> main
 =======
 >>>>>>> 73ac2a1efe8a031c05d42f95d05b11a266292936
+>>>>>>> f0b4c86ff1ffcadcdcf16aa7b94913ff608f2c59
 --- !u!1 &208522502
 GameObject:
   m_ObjectHideFlags: 0
@@ -1133,6 +1136,9 @@ RectTransform:
 =======
 <<<<<<< HEAD
   - {fileID: 122429051}
+=======
+<<<<<<< HEAD
+  - {fileID: 122429051}
   - {fileID: 491875922}
   - {fileID: 208522503}
 =======
@@ -1213,6 +1219,9 @@ Rigidbody2D:
   m_UseAutoMass: 0
 <<<<<<< HEAD
   m_Mass: 1000
+=======
+<<<<<<< HEAD
+  m_Mass: 1
 =======
 <<<<<<< HEAD
   m_Mass: 1
@@ -1406,11 +1415,16 @@ MonoBehaviour:
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
 >>>>>>> main
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> 73ac2a1efe8a031c05d42f95d05b11a266292936
+>>>>>>> f0b4c86ff1ffcadcdcf16aa7b94913ff608f2c59
 --- !u!1 &491875921
 GameObject:
   m_ObjectHideFlags: 0
@@ -1586,6 +1600,8 @@ GameObject:
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
   - component: {fileID: 519420033}
 =======
 >>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
@@ -1726,9 +1742,12 @@ Transform:
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 >>>>>>> main
 =======
 >>>>>>> 73ac2a1efe8a031c05d42f95d05b11a266292936
+>>>>>>> f0b4c86ff1ffcadcdcf16aa7b94913ff608f2c59
 --- !u!114 &519420033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2009,6 +2028,9 @@ MonoBehaviour:
   m_LightVolumeEnabled: 0
 <<<<<<< HEAD
   m_ApplyToSortingLayers: 00000000ed4decd903aaed5167dd2f13edb308ef
+=======
+<<<<<<< HEAD
+  m_ApplyToSortingLayers: 00000000ed4decd9699f78f503aaed5167dd2f13edb308ef
 =======
 <<<<<<< HEAD
   m_ApplyToSortingLayers: 00000000ed4decd9699f78f503aaed5167dd2f13edb308ef
@@ -9242,6 +9264,8 @@ SpriteRenderer:
 =======
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
 =======
 >>>>>>> fa35998509d94b61d70a067ed67e63e7cdfa30bb
 >>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
@@ -10758,6 +10782,10 @@ SpriteRenderer:
   damageNum: {fileID: 5033424578475317767, guid: 90ece5bcf8111184e982f3cf76a8ffe6, type: 3}
   enemy: {fileID: 1771957364}
 =======
+<<<<<<< HEAD
+  damageNum: {fileID: 5033424578475317767, guid: 90ece5bcf8111184e982f3cf76a8ffe6, type: 3}
+  enemy: {fileID: 1771957364}
+=======
 >>>>>>> fa35998509d94b61d70a067ed67e63e7cdfa30bb
 >>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
 >>>>>>> main
@@ -10800,6 +10828,9 @@ Rigidbody2D:
   m_UseAutoMass: 0
 <<<<<<< HEAD
   m_Mass: 1000
+=======
+<<<<<<< HEAD
+  m_Mass: 1
 =======
 <<<<<<< HEAD
   m_Mass: 1
@@ -11692,6 +11723,9 @@ GameObject:
   - component: {fileID: 2008726125}
 <<<<<<< HEAD
   m_Layer: 5
+=======
+<<<<<<< HEAD
+  m_Layer: 0
 =======
 <<<<<<< HEAD
   m_Layer: 0
