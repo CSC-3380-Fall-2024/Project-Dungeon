@@ -14,6 +14,8 @@ public class PlayerInteract : MonoBehaviour
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
     private bool fightCheck; // This holds the fightCheck from Combat Script
 
     // Public Static variables
@@ -27,6 +29,7 @@ public class PlayerInteract : MonoBehaviour
     public static float fightPosY; // This is the y position the player will take when in combat
 =======
 >>>>>>> main
+>>>>>>> main
     private Vector2 fightPos; // This is the position the player will take when in combat
     private bool fightCheck; // This holds the fightCheck from Combat Script
 
@@ -34,12 +37,21 @@ public class PlayerInteract : MonoBehaviour
     public static double health = 20; // The health stat of the player
     public static double attack = 5; // The attack stat of the player
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> main
+>>>>>>> f0b4c86ff1ffcadcdcf16aa7b94913ff608f2c59
     public static double defense = 15; // Def stat of the player
     public static double speed = 5; // Speed stat of player
 
     public static double posX; // The x position of the player. Used to calculate distance in CombatScript
     public static double posY;// The x position of the player. Used to calculate distance in CombatScript
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
     public static double defense = 5; // Def stat of the player
     public static double speed = 5; // Speed stat of player
     public static int exp = 0; // XP of the player
@@ -48,7 +60,10 @@ public class PlayerInteract : MonoBehaviour
 
     public static double posX; // The x position of the player. Used to calculate distance in CombatScript
     public static double posY;// The x position of the player. Used to calculate distance in CombatScript
+<<<<<<< HEAD
+=======
 >>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
+>>>>>>> main
 >>>>>>> main
 
     //Initiate fightCheck, fightPos, health, and Attack
@@ -56,6 +71,9 @@ public class PlayerInteract : MonoBehaviour
     {
         fightCheck = CombatScript.fightCheck;
 
+<<<<<<< HEAD
+        fightPos = new Vector2(-2, 0);
+=======
 <<<<<<< HEAD
         fightPos = new Vector2(-2, 0);
 =======
@@ -68,6 +86,7 @@ public class PlayerInteract : MonoBehaviour
 =======
         fightPos = new Vector2(-2, 0);
 >>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
+>>>>>>> main
 >>>>>>> main
 
     }
@@ -89,10 +108,14 @@ public class PlayerInteract : MonoBehaviour
             transform.position = fightPos;
 =======
 <<<<<<< HEAD
+            transform.position = fightPos;
+=======
+<<<<<<< HEAD
             transform.position = new Vector2(fightPosX,fightPosY);
 =======
             transform.position = fightPos;
 >>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
+>>>>>>> main
 >>>>>>> main
         }
     }

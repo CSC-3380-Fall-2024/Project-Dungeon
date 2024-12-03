@@ -134,8 +134,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
+<<<<<<< HEAD
+    nameFileIdTable: {}
+=======
     nameFileIdTable:
       cloud_tileA5_1_0: -8536606530827057692
+>>>>>>> main
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

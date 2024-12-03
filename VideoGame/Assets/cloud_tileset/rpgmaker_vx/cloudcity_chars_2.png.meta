@@ -1709,6 +1709,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
+<<<<<<< HEAD
+    nameFileIdTable: {}
+=======
     nameFileIdTable:
       cloudcity_chars_2_0: -1467387263430636443
       cloudcity_chars_2_1: -1754786986472729736
@@ -1774,6 +1777,7 @@ TextureImporter:
       cloudcity_chars_2_7: -7750770742410471754
       cloudcity_chars_2_8: 5282159340815342212
       cloudcity_chars_2_9: -8222024681778969758
+>>>>>>> main
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

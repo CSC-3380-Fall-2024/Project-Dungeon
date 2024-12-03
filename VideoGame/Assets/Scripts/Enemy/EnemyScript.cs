@@ -27,6 +27,12 @@ public class EnemyScript : MonoBehaviour
 =======
 >>>>>>> main
 
+<<<<<<< HEAD
+    //[SerializeField]
+    public Vector2 OriginalPosition { get; private set; }
+
+=======
+>>>>>>> main
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -49,11 +55,27 @@ public class EnemyScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+<<<<<<< HEAD
+        if (Health <= 0)
+        {
+
+            Destroy(this.gameObject);
+        
+        }
+
+=======
+>>>>>>> main
         //Calculate distance between itself and player
         distance = player.position - transform.position;
 
         if (distance.magnitude <= 1 && Input.GetKeyUp(KeyCode.E))// Check to see if player is close enough and interacts
         {
+<<<<<<< HEAD
+            //Grab original positon
+            OriginalPosition = transform.localPosition;
+
+=======
+>>>>>>> main
             // We're in combat. Check Combat script to follow the flow
             FightCheck = true;
 

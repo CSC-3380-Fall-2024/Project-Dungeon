@@ -3,7 +3,11 @@ using System.Collections.Generic;
 
 /*
  * Author: Ryan Tin Tran
+<<<<<<< HEAD
+ * Last Updated: 11/22/2024
+=======
  * Last Updated: 11/18/2024
+>>>>>>> main
  * Description: This script holds the stats for the player.
  *  This script also keeps track of distances between all enemies in the map and initiates combat by pressing "E"
  *  Once combat is initated, this script passes information to the Combat script
@@ -28,6 +32,11 @@ public class PlayerScript : MonoBehaviour
 =======
 >>>>>>> main
 
+<<<<<<< HEAD
+    public Vector2 OriginalPosition { get; private set; }// Grab position before combat
+
+=======
+>>>>>>> main
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -52,14 +61,29 @@ public class PlayerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+<<<<<<< HEAD
+        // Update enemy list
+        enemy = FindObjectsByType<EnemyScript>(FindObjectsSortMode.None);
 
         foreach (EnemyScript badGuy in enemy) // A for loop that iterates through all enemies
         {
+
+=======
+
+        foreach (EnemyScript badGuy in enemy) // A for loop that iterates through all enemies
+        {
+>>>>>>> main
             // Find the distance between all enemies and player
             distance = badGuy.transform.position - transform.position;
 
             if (distance.magnitude <= 1 && Input.GetKeyUp(KeyCode.E)) // If very close and the player press "E" to initiate combat, switch fight check
             {
+<<<<<<< HEAD
+                //Grab original positon
+                OriginalPosition = transform.localPosition;
+
+=======
+>>>>>>> main
                 // We're in combat now. Visit combat script to see how combat works.
                 FightCheck = true;
 
@@ -67,6 +91,10 @@ public class PlayerScript : MonoBehaviour
 
         }
 
+<<<<<<< HEAD
+
+=======
         
+>>>>>>> main
     }
 }
