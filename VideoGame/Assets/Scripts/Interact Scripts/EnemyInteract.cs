@@ -13,6 +13,8 @@ public class EnemyInteract : MonoBehaviour
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
     private bool fightCheck; // This holds the fightCheck from Combat Script
 
     // Public Static variables
@@ -20,12 +22,17 @@ public class EnemyInteract : MonoBehaviour
     public static double attack; // The attack stat of the enemy
 =======
 >>>>>>> main
+>>>>>>> main
     private Vector2 fightPos; // This is the position the enemy will take when in combat
     private bool fightCheck; // This holds the fightCheck from Combat Script
 
     // Public Static variables
     public static double health = 20; // The health stat of the enemy
     public static double attack = 1; // The attack stat of the enemy
+<<<<<<< HEAD
+    public static double defense = 20; // Def stat of the enemy
+    public static double speed = 3; // Speed stat of enemy
+=======
 <<<<<<< HEAD
     public static double defense = 1; // Def stat of the enemy
     public static double speed = 3; // Speed stat of enemy
@@ -35,10 +42,13 @@ public class EnemyInteract : MonoBehaviour
     public static int dropExp = 35; // Amount of XP that an enemy will drop
 >>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
 >>>>>>> main
+>>>>>>> main
 
     public static double posX; // The x position of the enemy. Used to calculate distance in CombatScript
     public static double posY;// The x position of the enemy. Used to calculate distance in CombatScript
 
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -48,11 +58,15 @@ public class EnemyInteract : MonoBehaviour
 =======
 >>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
 >>>>>>> main
+>>>>>>> main
     //Initiate fightCheck, fightPos, health, and Attack
     void Start()
     {
         fightCheck = CombatScript.fightCheck;
 
+<<<<<<< HEAD
+        fightPos = new Vector2(2, 0);
+=======
 <<<<<<< HEAD
         fightPos = new Vector2(2, 0);
 =======
@@ -65,6 +79,7 @@ public class EnemyInteract : MonoBehaviour
 =======
         fightPos = new Vector2(2, 0);
 >>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
+>>>>>>> main
 >>>>>>> main
 
     }
@@ -86,10 +101,14 @@ public class EnemyInteract : MonoBehaviour
             transform.position = fightPos;
 =======
 <<<<<<< HEAD
+            transform.position = fightPos;
+=======
+<<<<<<< HEAD
             transform.position = new Vector2(fightPosX , fightPosY);
 =======
             transform.position = fightPos;
 >>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
+>>>>>>> main
 >>>>>>> main
         }
     }
