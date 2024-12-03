@@ -14,8 +14,11 @@ public class EnemyInteract : MonoBehaviour
     private bool fightCheck; // This holds the fightCheck from Combat Script
 
     // Public Static variables
-    public static double health; // The health stat of the enemy
-    public static double attack; // The attack stat of the enemy
+    public static double health = 20; // The health stat of the enemy
+    public static double attack = 1; // The attack stat of the enemy
+    public static double defense = 0; // Def stat of the enemy
+    public static double speed = 3; // Speed stat of enemy
+    public static int dropExp = 35; // Amount of XP that an enemy will drop
 
     public static double posX; // The x position of the enemy. Used to calculate distance in CombatScript
     public static double posY;// The x position of the enemy. Used to calculate distance in CombatScript
@@ -26,10 +29,6 @@ public class EnemyInteract : MonoBehaviour
         fightCheck = CombatScript.fightCheck;
 
         fightPos = new Vector2(2, 0);
-
-        health = 20;
-
-        attack = 1;
 
     }
 

@@ -44,26 +44,47 @@ public class AttackButton : MonoBehaviour
     // Assumes the Player moves first
     public void attack()
     {
+        if (PlayerInteract.speed >= EnemyInteract.speed) // if player's speed is greater or equal to enemy's, player attacks first
+        {
+            //EnemyInteract.health -= PlayerInteract.attack;
 
-        EnemyInteract.health -= PlayerInteract.attack;
+            //Debug.Log("Player dealt: " + PlayerInteract.attack);
 
-        Debug.Log("Player dealt: " + PlayerInteract.attack);
+            //PlayerInteract.health -= EnemyInteract.attack;
 
-        //Instantiate TextUI, then destroy it in 3 seconds
-        //Instantiate(damageNum,new Vector2(0,0), Quaternion.identity);
-        //damageNum.text = "-" + PlayerInteract.attack;
-        //Destroy(damageNum, 3f);
+            //Debug.Log("Enemy dealt: " + EnemyInteract.attack);
 
+            DefCheck defCheck = new DefCheck();
+            double playerdefReduction = defCheck.DamageReduction(PlayerInteract.defense); // takes player's defense and returns the damage reduction
+            double enemydefReduction = defCheck.DamageReduction(EnemyInteract.defense); // does the same for the enemy
 
-        PlayerInteract.health -= EnemyInteract.attack;
+            EnemyInteract.health = DmgCalc.PlayerAttack(PlayerInteract.attack, enemydefReduction, EnemyInteract.health); // player attacks first
+            PlayerInteract.health = DmgCalc.EnemyAttack(EnemyInteract.attack, playerdefReduction, PlayerInteract.health); // enemy attacks second
 
-        Debug.Log("Enemy dealt: " + EnemyInteract.attack);
+            Debug.Log("Player health: " + PlayerInteract.health);
 
+            Debug.Log("Enemy health: " + EnemyInteract.health);
 
+        }
 
-        Debug.Log("Player health: " + PlayerInteract.health);
+        else // If enemy speed is greater than player's, enenmy attacks first
+        {
+            //PlayerInteract.health -= EnemyInteract.attack;
+            //Debug.Log("Enemy dealt: " + EnemyInteract.attack);
 
-        Debug.Log("Enemy health: " + EnemyInteract.health);
+            //EnemyInteract.health -= PlayerInteract.attack;
+            //Debug.Log("Player dealt: " + PlayerInteract.attack);
+
+            DefCheck defCheck = new DefCheck();
+            double playerdefReduction = defCheck.DamageReduction(PlayerInteract.defense); // takes player's defense and returns the damage reduction
+            double enemydefReduction = defCheck.DamageReduction(EnemyInteract.defense); // does the same for the enemy
+
+            PlayerInteract.health = DmgCalc.EnemyAttack(EnemyInteract.attack, playerdefReduction, PlayerInteract.health); // enemy attacks first
+            EnemyInteract.health = DmgCalc.PlayerAttack(PlayerInteract.attack, enemydefReduction, EnemyInteract.health); // player attacks second
+
+            Debug.Log("Player health: " + PlayerInteract.health);
+            Debug.Log("Enemy health: " + EnemyInteract.health);
+        }
 
         //Check whose health is 0
         if (PlayerInteract.health <= 0)
@@ -82,6 +103,8 @@ public class AttackButton : MonoBehaviour
             Destroy(enemy);
             CombatScript.fightCheck = false;
             CombatScript.movement.enabled = true;
+            LvlUp expCheck = new LvlUp();
+            PlayerInteract.exp = expCheck.xpCheck(PlayerInteract.exp, EnemyInteract.dropExp); // after enemy is defeated, gives player xp
 
         }
 
