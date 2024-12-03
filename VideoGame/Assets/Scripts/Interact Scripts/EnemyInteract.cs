@@ -30,9 +30,14 @@ public class EnemyInteract : MonoBehaviour
     public static double health = 20; // The health stat of the enemy
     public static double attack = 1; // The attack stat of the enemy
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static double defense = 0; // Def stat of the enemy
     public static double speed = 3; // Speed stat of enemy
     public static int dropExp = 35; // Amount of XP that an enemy will drop
+=======
+    public static double defense = 20; // Def stat of the enemy
+    public static double speed = 3; // Speed stat of enemy
+>>>>>>> f0b4c86ff1ffcadcdcf16aa7b94913ff608f2c59
 =======
 <<<<<<< HEAD
     public static double defense = 1; // Def stat of the enemy

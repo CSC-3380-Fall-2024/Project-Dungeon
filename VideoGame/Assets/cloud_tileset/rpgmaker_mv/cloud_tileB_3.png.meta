@@ -1059,6 +1059,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
+<<<<<<< HEAD
+    nameFileIdTable: {}
+=======
     nameFileIdTable:
       cloud_tileB_3_0: 6644489007705344429
       cloud_tileB_3_1: 7785883317599598041
@@ -1098,6 +1101,7 @@ TextureImporter:
       cloud_tileB_3_7: -7900126728673009419
       cloud_tileB_3_8: -4092014965165395453
       cloud_tileB_3_9: -8402969101511450894
+>>>>>>> main
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

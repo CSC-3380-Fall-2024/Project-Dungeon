@@ -4,7 +4,11 @@ using TMPro;
 
 /*
  * Author: Ryan Tin Tran
+<<<<<<< HEAD
+ * Last Updated: 11/18/2024
+=======
  * Last Updated: 11/7/2024
+>>>>>>> main
  * Description: The purpose of this script is to mediate damage between the player and enemy.
  * Also checks on the health of the player and enemy and decides the victor
  */
@@ -14,29 +18,62 @@ public class AttackButton : MonoBehaviour
     //Private Variables
     private Button myButton; // A variable to hold the Button Component
     private Image myImage;  // A variable to hold the Image Component
+<<<<<<< HEAD
+
+    private MovementScript movement;// Variable for the movement of the player
+
+    private PlayerScript player;// Variable to find player
+
+    private EnemyScript[] enemy;// Variable for all enemies
+=======
     public TMP_Text damageNum;
 
     // Public Variables
     public GameObject enemy; // A variable to hold an enemy GameObject
+>>>>>>> main
 
     // Initiate and disable the Button and Image components
     void Awake()
     {
+<<<<<<< HEAD
+        // Find player and all enemies
+        player = FindAnyObjectByType<PlayerScript>();
+        enemy = FindObjectsByType<EnemyScript>(FindObjectsSortMode.None);
+
+        //Find the button for the attack button
+        myButton = GetComponent<Button>();
+        myButton.enabled = player.FightCheck;
+
+        //Find the image for the attack button
+        myImage = GetComponent<Image>();
+        myImage.enabled = player.FightCheck;
+
+        //Find the movement script for the player
+        movement = FindAnyObjectByType<MovementScript>();
+=======
         myButton = GetComponent<Button>();
         myButton.enabled = CombatScript.fightCheck;
 
         myImage = GetComponent<Image>();
         myImage.enabled = CombatScript.fightCheck;
+>>>>>>> main
 
     }
 
     // Update to see if the Button and Image component needs to be enabled
     void Update()
     {
+<<<<<<< HEAD
+        // The buttons and image is enabled depending if the player is in combat or not
+        myButton.enabled = player.FightCheck;
+
+        myImage.enabled = player.FightCheck;
+=======
 
         myButton.enabled = CombatScript.fightCheck;
 
         myImage.enabled = CombatScript.fightCheck;
+>>>>>>> main
 
     }
 
@@ -45,6 +82,42 @@ public class AttackButton : MonoBehaviour
     public void attack()
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        foreach (EnemyScript badGuy in enemy)// Iterate through all enemies
+        {
+            if (badGuy.FightCheck == true && player.FightCheck == true)// Make sure the enemy is in combat
+            {
+                // Deduct healths
+                badGuy.Health -= player.Attack;
+
+                player.Health -= badGuy.Attack;
+
+                //Check whose health is 0
+                if (player.Health <= 0)
+                {
+                    // Exit combat
+                    player.FightCheck = false;
+                    badGuy.FightCheck = false;
+                    movement.enabled = true;
+
+                }
+
+                else if (badGuy.Health <= 0)
+                {
+                    // Exit combat
+                    player.FightCheck = false;
+                    badGuy.FightCheck = false;
+                    movement.enabled = true;
+
+                }
+
+            }
+            
+=======
+>>>>>>> 73ac2a1efe8a031c05d42f95d05b11a266292936
+>>>>>>> f0b4c86ff1ffcadcdcf16aa7b94913ff608f2c59
 =======
 <<<<<<< HEAD
         if (PlayerInteract.speed >= EnemyInteract.speed) // if player's speed is greater or equal to enemy's, player attacks first
@@ -177,6 +250,8 @@ public class AttackButton : MonoBehaviour
 <<<<<<< HEAD
             LvlUp expCheck = new LvlUp();
             PlayerInteract.exp = expCheck.xpCheck(PlayerInteract.exp, EnemyInteract.dropExp); // after enemy is defeated, gives player xp
+=======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======

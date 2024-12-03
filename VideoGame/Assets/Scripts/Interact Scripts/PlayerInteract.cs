@@ -39,11 +39,17 @@ public class PlayerInteract : MonoBehaviour
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> main
+>>>>>>> f0b4c86ff1ffcadcdcf16aa7b94913ff608f2c59
     public static double defense = 15; // Def stat of the player
     public static double speed = 5; // Speed stat of player
 
     public static double posX; // The x position of the player. Used to calculate distance in CombatScript
     public static double posY;// The x position of the player. Used to calculate distance in CombatScript
+<<<<<<< HEAD
+=======
 =======
 >>>>>>> main
     public static double defense = 5; // Def stat of the player
