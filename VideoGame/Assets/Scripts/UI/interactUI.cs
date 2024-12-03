@@ -3,12 +3,17 @@ using TMPro;
 
 /*
  * Author: Ryan Tin Tran
+<<<<<<< HEAD
  * Last Updated: 11/18/2024
+=======
+ * Last Updated: 11/9/2024
+>>>>>>> main
  * Description: This is the UI to indicated if the player can interact with something. The indicator should be a floating "E"
  */
 
 public class interactUI : MonoBehaviour
 {
+<<<<<<< HEAD
 
     private TMP_Text myText;// Variable to hold the text
     private Vector2 distance;// Holds distance between player and enemies
@@ -31,11 +36,25 @@ public class interactUI : MonoBehaviour
 
         enemies = FindObjectsByType<EnemyScript>(FindObjectsSortMode.None);// Graby enemies
 
+=======
+    private float posX;
+    private float posY;
+
+    private TMP_Text myText;
+
+    void Awake()
+    {
+
+        myText = GetComponent<TMP_Text>();
+        myText.enabled = false;
+
+>>>>>>> main
     }
 
     // Update is called once per frame
     void Update()
     {
+<<<<<<< HEAD
         // Iterate through all enemies
         foreach (EnemyScript badGuy in enemies)
         {
@@ -68,6 +87,19 @@ public class interactUI : MonoBehaviour
 
         //Reset enemy
         enemy = null;
+=======
+        if (CombatScript.distance < 1 && CombatScript.fightCheck == false)
+        {
+            myText.enabled = true;
+            posX = (float)PlayerInteract.posX + 1;
+            posY = (float)PlayerInteract.posY + 1;
+
+            transform.position = new Vector2(posX, posY);
+
+        }
+
+        else { myText.enabled = false; }
+>>>>>>> main
 
     }
 }

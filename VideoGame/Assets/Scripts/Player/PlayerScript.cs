@@ -19,11 +19,14 @@ public class PlayerScript : MonoBehaviour
 
     public double Health { get;  set; } // The health of the player
     public double Attack { get; private set; }// The attack of the player
+<<<<<<< HEAD
     public double defense { get; set; } // Def stat of the player
     public double speed { get; set; } // Speed stat of player
     public int exp { get; set; } // XP of the player
     public int level { get; set; } // Level of the player
     public int statPoint { get; set; } // stat points that will go into other stats
+=======
+>>>>>>> main
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -36,11 +39,14 @@ public class PlayerScript : MonoBehaviour
         // Initialize the player stats
         Attack = 5;
         Health = 20;
+<<<<<<< HEAD
         defense = 5;
         speed = 5;
         exp = 0;
         level = 1;
         statPoint = 0;
+=======
+>>>>>>> main
     }
 
     // Update is called once per frame

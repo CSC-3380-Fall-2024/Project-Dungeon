@@ -1,6 +1,21 @@
 using UnityEngine;
 using TMPro;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+public class EnemyHealth : MonoBehaviour
+{
+    private TMP_Text healthUI;
+    private bool fightCheck;
+
+    void Awake()
+    {
+        healthUI = GetComponent<TMP_Text>();
+        fightCheck = CombatScript.fightCheck;
+        healthUI.enabled = fightCheck;
+=======
+>>>>>>> main
 /*
  * Author: Ryan Tin Tran
  * Last Updated: 11/18/2024
@@ -27,12 +42,41 @@ public class EnemyHealth : MonoBehaviour
         healthUI = GetComponent<TMP_Text>();
         healthUI.enabled = false;
 
+<<<<<<< HEAD
+=======
+>>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
+>>>>>>> main
 
     }
 
     // Update is called once per frame
     void Update()
     {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        fightCheck = CombatScript.fightCheck;
+
+        if (fightCheck == true)
+        {
+
+            healthUI.enabled = fightCheck;
+
+            healthUI.text = "Health: " + EnemyInteract.health;
+
+            transform.position = new Vector2(EnemyInteract.fightPosX, EnemyInteract.fightPosY + 2f);
+
+        }
+
+        else if (fightCheck == false)
+        {
+
+            healthUI.enabled = fightCheck;
+
+        }
+
+=======
+>>>>>>> main
         // Iterate through all enemies
         foreach (EnemyScript badGuy in enemies)
         {
@@ -69,6 +113,10 @@ public class EnemyHealth : MonoBehaviour
 
         // Reset enemy
         enemy = null;
+<<<<<<< HEAD
+=======
+>>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
+>>>>>>> main
 
     }
 }

@@ -1,6 +1,23 @@
 using UnityEngine;
 using TMPro;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+public class PlayerHealth : MonoBehaviour
+{
+    private TMP_Text healthUI;
+    private bool fightCheck;
+
+    void Awake()
+    {
+        healthUI = GetComponent<TMP_Text>();
+        fightCheck = CombatScript.fightCheck;
+        healthUI.enabled = fightCheck;
+
+=======
+>>>>>>> main
 /*
  * Author: Ryan Tin Tran
  * Last Updated: 11/18/2024
@@ -28,11 +45,30 @@ public class PlayerHealth : MonoBehaviour
         healthUI.enabled = fightCheck;
 
 
+<<<<<<< HEAD
+=======
+>>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
+>>>>>>> main
     }
 
     // Update is called once per frame
     void Update()
     {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        fightCheck = CombatScript.fightCheck;
+
+        if (fightCheck == true)
+        {
+
+            healthUI.enabled = fightCheck;
+
+            healthUI.text = "Health: " + PlayerInteract.health;
+
+            transform.position = new Vector2(PlayerInteract.fightPosX, PlayerInteract.fightPosY + 2f);
+=======
+>>>>>>> main
         // Update fight check
         fightCheck = player.FightCheck;
 
@@ -47,6 +83,10 @@ public class PlayerHealth : MonoBehaviour
             healthUI.text = "Health: " + player.Health;
 
             transform.position = new Vector2(playerPosX, playerPosY + 2f);
+<<<<<<< HEAD
+=======
+>>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
+>>>>>>> main
 
         }
 

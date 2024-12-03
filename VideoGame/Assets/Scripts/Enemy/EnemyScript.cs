@@ -19,10 +19,13 @@ public class EnemyScript : MonoBehaviour
 
     public double Health { get;  set; }// health stat for the enemy
     public double Attack { get; private set; }// Attack stat for enemy
+<<<<<<< HEAD
     public double defense { get; set; } // Def stat of the enemy
     public double speed { get; set; } // Speed stat of enemy
     public int dropExp { get; set; } // amount of exp enemy will drop once defeated
 
+=======
+>>>>>>> main
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -35,9 +38,12 @@ public class EnemyScript : MonoBehaviour
 
         Attack = 1;
         Health = 20;
+<<<<<<< HEAD
         defense = 3;
         speed = 3;
         dropExp = 21;
+=======
+>>>>>>> main
     }
 
     // Update is called once per frame

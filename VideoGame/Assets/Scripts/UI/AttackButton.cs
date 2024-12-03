@@ -4,7 +4,11 @@ using TMPro;
 
 /*
  * Author: Ryan Tin Tran
+<<<<<<< HEAD
  * Last Updated: 11/18/2024
+=======
+ * Last Updated: 11/7/2024
+>>>>>>> main
  * Description: The purpose of this script is to mediate damage between the player and enemy.
  * Also checks on the health of the player and enemy and decides the victor
  */
@@ -14,16 +18,24 @@ public class AttackButton : MonoBehaviour
     //Private Variables
     private Button myButton; // A variable to hold the Button Component
     private Image myImage;  // A variable to hold the Image Component
+<<<<<<< HEAD
 
     private MovementScript movement;// Variable for the movement of the player
 
     public PlayerScript player;// Variable to find player
 
     private EnemyScript[] enemy;// Variable for all enemies
+=======
+    public TMP_Text damageNum;
+
+    // Public Variables
+    public GameObject enemy; // A variable to hold an enemy GameObject
+>>>>>>> main
 
     // Initiate and disable the Button and Image components
     void Awake()
     {
+<<<<<<< HEAD
         // Find player and all enemies
         player = FindAnyObjectByType<PlayerScript>();
         enemy = FindObjectsByType<EnemyScript>(FindObjectsSortMode.None);
@@ -38,16 +50,30 @@ public class AttackButton : MonoBehaviour
 
         //Find the movement script for the player
         movement = FindAnyObjectByType<MovementScript>();
+=======
+        myButton = GetComponent<Button>();
+        myButton.enabled = CombatScript.fightCheck;
+
+        myImage = GetComponent<Image>();
+        myImage.enabled = CombatScript.fightCheck;
+>>>>>>> main
 
     }
 
     // Update to see if the Button and Image component needs to be enabled
     void Update()
     {
+<<<<<<< HEAD
         // The buttons and image is enabled depending if the player is in combat or not
         myButton.enabled = player.FightCheck;
 
         myImage.enabled = player.FightCheck;
+=======
+
+        myButton.enabled = CombatScript.fightCheck;
+
+        myImage.enabled = CombatScript.fightCheck;
+>>>>>>> main
 
     }
 
@@ -55,6 +81,7 @@ public class AttackButton : MonoBehaviour
     // Assumes the Player moves first
     public void attack()
     {
+<<<<<<< HEAD
         foreach (EnemyScript badGuy in enemy)// Iterate through all enemies
         {
             if (badGuy.FightCheck == true && player.FightCheck == true)// Make sure the enemy is in combat
@@ -117,6 +144,121 @@ public class AttackButton : MonoBehaviour
 
             }
             
+=======
+<<<<<<< HEAD
+        if (PlayerInteract.speed >= EnemyInteract.speed) // if player's speed is greater or equal to enemy's, player attacks first
+        {
+            EnemyInteract.health -= PlayerInteract.attack;
+
+            Debug.Log("Player dealt: " + PlayerInteract.attack);
+
+            PlayerInteract.health -= EnemyInteract.attack;
+
+            Debug.Log("Enemy dealt: " + EnemyInteract.attack);
+
+=======
+<<<<<<< HEAD
+
+        EnemyInteract.health -= PlayerInteract.attack;
+
+
+        PlayerInteract.health -= EnemyInteract.attack;
+=======
+        if (PlayerInteract.speed >= EnemyInteract.speed) // if player's speed is greater or equal to enemy's, player attacks first
+        {
+            //EnemyInteract.health -= PlayerInteract.attack;
+
+            //Debug.Log("Player dealt: " + PlayerInteract.attack);
+
+            //PlayerInteract.health -= EnemyInteract.attack;
+
+            //Debug.Log("Enemy dealt: " + EnemyInteract.attack);
+
+            DefCheck defCheck = new DefCheck();
+            double playerdefReduction = defCheck.DamageReduction(PlayerInteract.defense); // takes player's defense and returns the damage reduction
+            double enemydefReduction = defCheck.DamageReduction(EnemyInteract.defense); // does the same for the enemy
+
+            EnemyInteract.health = DmgCalc.PlayerAttack(PlayerInteract.attack, enemydefReduction, EnemyInteract.health); // player attacks first
+            PlayerInteract.health = DmgCalc.EnemyAttack(EnemyInteract.attack, playerdefReduction, PlayerInteract.health); // enemy attacks second
+>>>>>>> main
+
+            Debug.Log("Player health: " + PlayerInteract.health);
+
+            Debug.Log("Enemy health: " + EnemyInteract.health);
+
+        }
+
+        else // If enemy speed is greater than player's, enenmy attacks first
+        {
+<<<<<<< HEAD
+            PlayerInteract.health -= EnemyInteract.attack;
+            Debug.Log("Enemy dealt: " + EnemyInteract.attack);
+
+            EnemyInteract.health -= PlayerInteract.attack;
+            Debug.Log("Player dealt: " + PlayerInteract.attack);
+=======
+            //PlayerInteract.health -= EnemyInteract.attack;
+            //Debug.Log("Enemy dealt: " + EnemyInteract.attack);
+
+            //EnemyInteract.health -= PlayerInteract.attack;
+            //Debug.Log("Player dealt: " + PlayerInteract.attack);
+
+            DefCheck defCheck = new DefCheck();
+            double playerdefReduction = defCheck.DamageReduction(PlayerInteract.defense); // takes player's defense and returns the damage reduction
+            double enemydefReduction = defCheck.DamageReduction(EnemyInteract.defense); // does the same for the enemy
+
+            PlayerInteract.health = DmgCalc.EnemyAttack(EnemyInteract.attack, playerdefReduction, PlayerInteract.health); // enemy attacks first
+            EnemyInteract.health = DmgCalc.PlayerAttack(PlayerInteract.attack, enemydefReduction, EnemyInteract.health); // player attacks second
+>>>>>>> main
+
+            Debug.Log("Player health: " + PlayerInteract.health);
+            Debug.Log("Enemy health: " + EnemyInteract.health);
+        }
+<<<<<<< HEAD
+=======
+>>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
+>>>>>>> main
+
+        //Check whose health is 0
+        if (PlayerInteract.health <= 0)
+        {
+<<<<<<< HEAD
+
+            Debug.Log("Player is defeated");
+=======
+<<<<<<< HEAD
+=======
+
+            Debug.Log("Player is defeated");
+>>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
+>>>>>>> main
+            CombatScript.fightCheck = false;
+            CombatScript.movement.enabled = true;
+
+        }
+
+        else if (EnemyInteract.health <= 0)
+        {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+            Destroy(enemy);
+            CombatScript.fightCheck = false;
+            CombatScript.movement.enabled = true;
+=======
+>>>>>>> main
+
+            Debug.Log("Enemy is defeated");
+            Destroy(enemy);
+            CombatScript.fightCheck = false;
+            CombatScript.movement.enabled = true;
+<<<<<<< HEAD
+=======
+            LvlUp expCheck = new LvlUp();
+            PlayerInteract.exp = expCheck.xpCheck(PlayerInteract.exp, EnemyInteract.dropExp); // after enemy is defeated, gives player xp
+>>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
+>>>>>>> main
+>>>>>>> main
 
         }
 
