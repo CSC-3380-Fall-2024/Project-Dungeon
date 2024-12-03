@@ -53,8 +53,23 @@ TagManager:
   - name: Frame
     uniqueID: 4118323049
     locked: 0
+<<<<<<< HEAD
   - name: UI
     uniqueID: 4010324973
     locked: 0
+=======
+<<<<<<< HEAD
+  - name: UI
+    uniqueID: 4010324973
+    locked: 0
+=======
+<<<<<<< HEAD
+  - name: UI
+    uniqueID: 4010324973
+    locked: 0
+=======
+>>>>>>> fa35998509d94b61d70a067ed67e63e7cdfa30bb
+>>>>>>> 6b9f0ad5c13fec5f820d8b96588c86800845d673
+>>>>>>> main
   m_RenderingLayers:
   - Default
