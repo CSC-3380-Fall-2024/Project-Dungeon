@@ -19,7 +19,7 @@ public class PlayerScript : MonoBehaviour
     public bool FightCheck { get; set; } // This keeps track of whether the player is in combat or not
 
     public double Health { get;  set; } // The health of the player
-    public double Attack { get; private set; }// The attack of the player
+    public double Attack { get;  set; }// The attack of the player
     public double defense { get; set; } // Def stat of the player
     public double speed { get; set; } // Speed stat of player
     public int exp { get; set; } // XP of the player
