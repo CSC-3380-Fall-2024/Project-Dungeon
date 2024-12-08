@@ -3,12 +3,14 @@ using TMPro;
 
 /*
  * Author: Ryan Tin Tran
- * Last Updated: 11/18/2024
- * Description: This is the UI for the player's health
+ * Last Updated: 12/7/2024
+ * Updated by: Ashton Williams
+ * Description: This is the UI for the player's Mana, being repurposed 
+ * for such from the player health script.
  */
-public class PlayerHealth : MonoBehaviour
+public class PlayerMana : MonoBehaviour
 {
-    private TMP_Text healthUI;// Grab text for health
+    private TMP_Text manaUI;// Grab text for mana
     private bool fightCheck;// Grab fight check from player
 
     private PlayerScript player;// Grab the layer
@@ -22,10 +24,10 @@ public class PlayerHealth : MonoBehaviour
         // Find player
         player = FindAnyObjectByType<PlayerScript>();
 
-        // Initialize health UI
-        healthUI = GetComponent<TMP_Text>();
+        // Initialize mana UI
+        manaUI = GetComponent<TMP_Text>();
         fightCheck = player.FightCheck;
-        healthUI.enabled = fightCheck;
+        manaUI.enabled = fightCheck;
 
 
     }
@@ -36,24 +38,24 @@ public class PlayerHealth : MonoBehaviour
         // Update fight check
         fightCheck = player.FightCheck;
 
-        // If in combat, turn on health UI
+        // If in combat, turn on mana UI
         if (fightCheck == true)
         {
             playerPosX = player.transform.position.x;
             playerPosY = player.transform.position.y;
 
-            healthUI.enabled = fightCheck;
+            manaUI.enabled = fightCheck;
 
-            healthUI.text = "Health: " + player.Health;
+            manaUI.text = "Mana: " + player.Mana;
 
-            transform.position = new Vector2(playerPosX, playerPosY + 2.5f);
+            transform.position = new Vector2(playerPosX, playerPosY + 2f);
 
         }
 
         else if (fightCheck == false)
         {
 
-            healthUI.enabled = fightCheck;
+            manaUI.enabled = fightCheck;
 
         }
 
