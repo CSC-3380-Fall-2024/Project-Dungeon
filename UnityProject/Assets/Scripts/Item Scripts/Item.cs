@@ -22,19 +22,19 @@ Date Updated: 12/3/2024
 public class Item : MonoBehaviour
 {
     [SerializeField]// Makes variable visible and editable in Unity Inspector
-    private string itemName;// Grab name of item
+    public string itemName;// Grab name of item
 
     [SerializeField]
-    private int quantity; // set quantity
+    public int quantity; // set quantity
 
     [SerializeField]
-    private Sprite sprite; // Keep track of sprite
+    public Sprite sprite; // Keep track of sprite
 
     private InventoryManager manager;// Keep Track of inventory manager
 
     [TextArea]
     [SerializeField]
-    private string itemDescription; // This is the item's description
+    public string itemDescription; // This is the item's description
 
     private PlayerScript player; //Keep track of player
 
@@ -60,10 +60,16 @@ public class Item : MonoBehaviour
         if (distance.magnitude <= 1 && Input.GetKeyUp(KeyCode.E))
         {
             // Feed the item name, quantity,sprite, and item description to the InventoryManager
-            manager.AddItem(itemName, quantity, sprite, itemDescription);
+            bool addSuccessful = manager.AddItem(itemName, quantity, sprite, itemDescription);
 
-            // Despawn the item
-            Destroy(this.gameObject);
+            if(addSuccessful)
+            {
+
+                // Despawn the item
+                Destroy(this.gameObject);
+
+
+            }
 
         }
 

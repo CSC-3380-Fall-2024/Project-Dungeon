@@ -3,10 +3,13 @@ using System.Collections.Generic;
 
 /*
  * Author: Ryan Tin Tran
- * Last Updated: 11/18/2024
+ * Last Updated: 12/7/2024
  * Description: This script holds the stats for the player.
  *  This script also keeps track of distances between all enemies in the map and initiates combat by pressing "E"
  *  Once combat is initated, this script passes information to the Combat script
+ * 
+ *Update log:
+ * 12/7/2024: Added Max heatlh
  * 
  */
 
@@ -19,11 +22,17 @@ public class PlayerScript : MonoBehaviour
     public bool FightCheck { get; set; } // This keeps track of whether the player is in combat or not
 
     public double Health { get;  set; } // The health of the player
+<<<<<<< HEAD
     public double MaxHealth { get; set; } //MaxHp of the player
     public double Attack { get;  set; }// The attack of the player
+=======
+    public double MaxHealth {get; set;} // The max health of the player
+    public double Attack { get; private set; }// The attack of the player
+>>>>>>> main
     public double defense { get; set; } // Def stat of the player
     public double speed { get; set; } // Speed stat of player
     public int exp { get; set; } // XP of the player
+    public int Mana { get; set; } // Max mana the player has
     public int level { get; set; } // Level of the player
     public int statPoint { get; set; } // stat points that will go into other stats
 
@@ -42,6 +51,7 @@ public class PlayerScript : MonoBehaviour
         defense = 5;
         speed = 5;
         exp = 0;
+        Mana = 20;
         level = 1;
         statPoint = 0;
     }

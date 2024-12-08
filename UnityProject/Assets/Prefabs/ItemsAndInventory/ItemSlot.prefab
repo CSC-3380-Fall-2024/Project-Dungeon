@@ -302,10 +302,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04898cafd07de0142ad1068670a426a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemName: 
-  quantity: 0
-  itemSprite: {fileID: 0}
   isFull: 0
+  emptySlot: {fileID: 1401624483705111660, guid: d8efb106a0f379d4cae6a859f65b87f1, type: 3}
   quantityText: {fileID: 3444775512375429218}
   itemImage: {fileID: 476407061067697954}
   selectedShader: {fileID: 3007975156430725171}
