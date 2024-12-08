@@ -23,7 +23,7 @@ public class InventoryManager : MonoBehaviour
     public GameObject Inventory;
 
     // Keep track when the menu is activated
-    private bool menuActivated;
+    public bool menuActivated;
 
     // Keep track of all the item slots
     public ItemSlot[] itemSlot;
@@ -113,8 +113,11 @@ public class InventoryManager : MonoBehaviour
     * Date created: 11/30/2024
     * Date modified: 12/1/2024
     */
-    public void AddItem(string itemName, int quantity, Sprite itemSprite, string itemDescription)
-    {
+    public bool AddItem(string itemName, int quantity, Sprite itemSprite, string itemDescription)
+    {   
+        // Assume item addition failed at first
+        bool result = false;
+
         // Iterate through all item slotes
         for(int i = 0; i < itemSlot.Length; i++)
         {
@@ -124,12 +127,18 @@ public class InventoryManager : MonoBehaviour
                 //Add that item into the item slot
                 itemSlot[i].AddItem(itemName, quantity, itemSprite, itemDescription);
 
-                // Stop the loop
-                return;
+                // Addition is successful
+                result = true;
+
+                // Stop looking for an available slot
+                break;
 
             }
 
         }
+
+        // After checking all item slots, return the result
+        return result;
 
     }
 
