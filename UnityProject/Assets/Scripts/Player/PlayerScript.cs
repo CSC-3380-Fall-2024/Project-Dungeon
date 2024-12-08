@@ -23,6 +23,7 @@ public class PlayerScript : MonoBehaviour
     public double defense { get; set; } // Def stat of the player
     public double speed { get; set; } // Speed stat of player
     public int exp { get; set; } // XP of the player
+    public int Mana { get; set; } // Max mana the player has
     public int level { get; set; } // Level of the player
     public int statPoint { get; set; } // stat points that will go into other stats
 
@@ -40,6 +41,7 @@ public class PlayerScript : MonoBehaviour
         defense = 5;
         speed = 5;
         exp = 0;
+        Mana = 20;
         level = 1;
         statPoint = 0;
     }
