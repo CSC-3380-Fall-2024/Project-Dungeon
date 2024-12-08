@@ -48,14 +48,27 @@ public class ItemSO : ScriptableObject
             player = FindAnyObjectByType<PlayerScript>();
 
             // Check if the player's health is maxxed out or not.
-            // Also make sure to make a maximum health variable in the player script
-            if(player.Health == 20)
+
+            // If player is at max health:
+            if(player.Health == player.MaxHealth)
             {
                 // Indicate the item isn't usable
                 return false;
 
             }
 
+            // If the player's health is a little bit under max health:
+            else if(player.Health < 20 && player.Health > player.MaxHealth - amountToChange)
+            {
+                // Heal player to max
+                player.Health = player.MaxHealth;
+
+                // Indicate the item is usable
+                return true;
+
+            }
+
+            // If player's health is a lot under max health:
             else
             {
 
