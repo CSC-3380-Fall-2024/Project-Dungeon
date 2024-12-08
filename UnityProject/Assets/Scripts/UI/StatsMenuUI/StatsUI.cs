@@ -40,7 +40,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
         StatBlocks[0].GetComponentInChildren<TMP_Text>().text = "Attack: " + player.Attack;
         StatBlocks[1].GetComponentInChildren<TMP_Text>().text = "Defense: " + player.defense;
         StatBlocks[2].GetComponentInChildren<TMP_Text>().text = "Speed: " + player.speed;
-        StatBlocks[3].GetComponentInChildren<TMP_Text>().text = "Health: " + player.Health;
+        StatBlocks[3].GetComponentInChildren<TMP_Text>().text = "Max Health: " + player.MaxHealth;
     }
 
 

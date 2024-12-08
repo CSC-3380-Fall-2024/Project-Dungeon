@@ -2,23 +2,23 @@ using TMPro.Examples;
 using UnityEngine;
 using TMPro;
 
-public class AddAtkStat : MonoBehaviour
+public class AddSpdStat : MonoBehaviour
 {
     public GameObject[] StatBlocks;
     public PlayerScript player;
-    public void AddPlayerAtk()
+    public void AddPlayerSpd()
     {
         player = FindAnyObjectByType<PlayerScript>();
-        UpdateAtkStat();
+        UpdateSpdStat();
     }
-    private void UpdateAtkStat()
+    private void UpdateSpdStat()
     {
         player = FindAnyObjectByType<PlayerScript>();
         if (player.statPoint > 0)
         {
-            player.Attack++;
+            player.speed++;
             player.statPoint--;
-            StatBlocks[0].GetComponentInChildren<TMP_Text>().text = "Attack: " + player.Attack;
+            StatBlocks[2].GetComponentInChildren<TMP_Text>().text = "Speed: " + player.speed;
         }
         else
         {

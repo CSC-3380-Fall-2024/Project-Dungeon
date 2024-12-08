@@ -2,23 +2,23 @@ using TMPro.Examples;
 using UnityEngine;
 using TMPro;
 
-public class AddAtkStat : MonoBehaviour
+public class AddHpStat : MonoBehaviour
 {
     public GameObject[] StatBlocks;
     public PlayerScript player;
-    public void AddPlayerAtk()
+    public void AddPlayerHp()
     {
         player = FindAnyObjectByType<PlayerScript>();
-        UpdateAtkStat();
+        UpdateHpStat();
     }
-    private void UpdateAtkStat()
+    private void UpdateHpStat()
     {
         player = FindAnyObjectByType<PlayerScript>();
         if (player.statPoint > 0)
         {
-            player.Attack++;
+            player.MaxHealth++;
             player.statPoint--;
-            StatBlocks[0].GetComponentInChildren<TMP_Text>().text = "Attack: " + player.Attack;
+            StatBlocks[3].GetComponentInChildren<TMP_Text>().text = "Health: " + player.MaxHealth;
         }
         else
         {

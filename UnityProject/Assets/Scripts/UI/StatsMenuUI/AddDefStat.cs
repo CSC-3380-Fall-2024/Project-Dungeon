@@ -1,24 +1,23 @@
 using TMPro.Examples;
 using UnityEngine;
 using TMPro;
-
-public class AddAtkStat : MonoBehaviour
+public class AddDefStat : MonoBehaviour
 {
     public GameObject[] StatBlocks;
     public PlayerScript player;
-    public void AddPlayerAtk()
+    public void AddPlayerDef()
     {
         player = FindAnyObjectByType<PlayerScript>();
-        UpdateAtkStat();
+        UpdateDefStat();
     }
-    private void UpdateAtkStat()
+    private void UpdateDefStat()
     {
         player = FindAnyObjectByType<PlayerScript>();
         if (player.statPoint > 0)
         {
-            player.Attack++;
+            player.defense++;
             player.statPoint--;
-            StatBlocks[0].GetComponentInChildren<TMP_Text>().text = "Attack: " + player.Attack;
+            StatBlocks[1].GetComponentInChildren<TMP_Text>().text = "Defense: " + player.defense;
         }
         else
         {
