@@ -21,8 +21,21 @@
 - In the projects tab on Unity Hub, click on “Add”, which is located somewhere at the top right of the screen
 - Click on “Add from Disk” and find the unzipped file
 - Enter the file, and highlight the “Unity Project” folder, then press “select folder”
+
 2.) How to run the game in Unity
 - If there is no scene showing, go into the project tab. Then, go to the scenes folder within assets and double click the “SampleScene” to show the scene properly
 - Switch over to the “Console” tab
 - Click the play button on the top center of the screen
 
+3.) Controls in the game
+- W, A, S, and D or arrows keys to move, and shift to sprint
+- ‘M’: Pulls up the stats menu
+- ‘I’: Pulls up the Inventory menu
+- Left mouse button check item description
+- Right mouse button Uses Item
+- Middle mouse button drops item
+- ‘E’: Interacts button. Interacts with items and enemies
+4) Combat:
+- Attack button: Attacks the enemy
+- Run Button: Disengage from combat
+- Magic button: Attack enemy with magic. Uses 5 mana
