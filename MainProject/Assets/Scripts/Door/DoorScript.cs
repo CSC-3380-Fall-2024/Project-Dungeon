@@ -9,12 +9,18 @@ public class DoorScript : MonoBehaviour
 
     private EnemyScript[] enemy;// Grab a list of all enemies
 
+    private TextBubbleManager textBubble; // Keep track of text bubble
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         // Find player
         player = FindAnyObjectByType<PlayerScript>();
         enemy = FindObjectsByType<EnemyScript>(FindObjectsSortMode.None); // Find all enemies
+
+        // Find Inventory Manager
+        textBubble = GameObject.Find("TextBubbleCanvas").GetComponent<TextBubbleManager>();
+
 
     }
 
@@ -29,8 +35,20 @@ public class DoorScript : MonoBehaviour
         // If very close and the player press "E":
         if (distance.magnitude <= 2 && Input.GetKeyUp(KeyCode.E) && player.level >= 2)
         {
+
+            string deny = "The door is opened";
+            textBubble.turnON(deny);
+
             Destroy(this.gameObject);
 
+        }
+
+        else if(distance.magnitude <= 2 && Input.GetKeyUp(KeyCode.E))
+        {
+
+            string deny = "Must be level 5";
+            textBubble.turnON(deny);
+        
         }
 
     }

@@ -53,6 +53,9 @@ TagManager:
   - name: UI
     uniqueID: 4010324973
     locked: 0
+  - name: TextBubble
+    uniqueID: 2309472631
+    locked: 0
   - name: GameOver
     uniqueID: 4284001215
     locked: 0

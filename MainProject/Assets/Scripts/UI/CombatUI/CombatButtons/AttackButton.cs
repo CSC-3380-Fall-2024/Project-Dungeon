@@ -78,7 +78,45 @@ public class AttackButton : MonoBehaviour
                     double enemydefReduction = defCheck.DamageReduction(badGuy.defense); // does the same for the enemy
 
                     badGuy.Health = DmgCalc.PlayerAttack(player.Attack, enemydefReduction, badGuy.Health); // player attacks first
+
+                    if (badGuy.Health <= 0)
+                    {
+                        // Exit combat
+                        player.FightCheck = false;
+                        badGuy.FightCheck = false;
+
+                        //Enable movement
+                        movement.enabled = true;
+
+                        // Player is returned to original position
+                        player.transform.localPosition = player.OriginalPosition;
+
+                        LvlUp expCheck = FindFirstObjectByType<LvlUp>();
+                        if (expCheck != null)
+                        {
+                            player.exp = expCheck.xpCheck(player.exp, badGuy.dropExp); // after enemy is defeated, gives player xp
+                        }
+                        else
+                        {
+                            Debug.LogError("LvlUp component not found brah");
+                        }
+                    }
+
                     player.Health = DmgCalc.EnemyAttack(badGuy.Attack, playerdefReduction, player.Health); // enemy attacks second
+
+                    //Check whose health is 0
+                    if (player.Health <= 0)
+                    {
+
+                        // Exit combat
+                        player.FightCheck = false;
+                        badGuy.FightCheck = false;
+                        movement.enabled = true;
+
+                        // Declare game over
+                        //gameOver.Setup();
+
+                    }
 
                 }
                 else // If enemy speed is greater than player's, enenmy attacks first
@@ -107,29 +145,6 @@ public class AttackButton : MonoBehaviour
 
                     
 
-                }
-
-                else if (badGuy.Health <= 0)
-                {
-                    // Exit combat
-                    player.FightCheck = false;
-                    badGuy.FightCheck = false;
-
-                    //Enable movement
-                    movement.enabled = true;
-
-                    // Player is returned to original position
-                    player.transform.localPosition = player.OriginalPosition;
-
-                    LvlUp expCheck = FindFirstObjectByType<LvlUp>(); 
-                    if (expCheck != null)
-                    {
-                        player.exp = expCheck.xpCheck(player.exp, badGuy.dropExp); // after enemy is defeated, gives player xp
-                    }
-                    else
-                    {
-                        Debug.LogError("LvlUp component not found brah");
-                    }
                 }
 
             }

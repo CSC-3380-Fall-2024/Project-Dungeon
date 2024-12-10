@@ -20,6 +20,8 @@ public class RunButton : MonoBehaviour
 
     private EnemyScript[] enemy;// Variable for all enemies
 
+    private TextBubbleManager textBubble; // Keep track of text bubble
+
     // Initiate and disable the Button and Image components
     void Awake()
     {
@@ -37,6 +39,9 @@ public class RunButton : MonoBehaviour
 
         //Find the movement script for the player
         movement = FindAnyObjectByType<MovementScript>();
+
+        // Find text bubble canvas
+        textBubble = GameObject.Find("TextBubbleCanvas").GetComponent<TextBubbleManager>();
 
     }
 
@@ -77,6 +82,13 @@ public class RunButton : MonoBehaviour
 
 
         }
+
+
+        // Call text bubble
+
+        string runString = "You ran away";
+        textBubble.turnON(runString);
+
     }
 
     

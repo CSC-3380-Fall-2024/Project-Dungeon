@@ -21,7 +21,7 @@ public class GameOverScreen : MonoBehaviour
         background = GameObject.Find("GameOverBackground");
 
         // Turn it off
-        background.SetActive(false);
+        //background.SetActive(false);
 
     }
 
