@@ -32,7 +32,7 @@
 - ‘M’: Pulls up the stats menu
 - ‘E’: Interacts button. Interacts with items and enemies
 
-4) Menu controls
+4) Inventory controls
 - ‘I’: Pulls up the Inventory menu
 - Left mouse button check item description
 - Right mouse button Uses Item
