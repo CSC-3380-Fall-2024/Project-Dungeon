@@ -5,6 +5,10 @@ public class LvlUp : MonoBehaviour
 {
     [SerializeField] private PlayerScript player; // allows this class to access PlayerScript
     public EnemyScript badGuy;
+
+    private TextBubbleManager textBubble; // Keep track of text bubble
+
+
     void Start()
     {
         if (player == null) // checks for no player reference
@@ -15,6 +19,10 @@ public class LvlUp : MonoBehaviour
             //Debug.Log("Player reference: " + player); // returns if there is no reference to the player
         }
         badGuy = FindAnyObjectByType<EnemyScript>();
+
+        // Find text bubble canvas
+        textBubble = GameObject.Find("TextBubbleCanvas").GetComponent<TextBubbleManager>();
+
     }
 
     private int xpForLevel = 20;
@@ -28,8 +36,13 @@ public class LvlUp : MonoBehaviour
             {
                 player.statPoint++; // gives player their xp point to invest into stats
                 player.level++; // increment player's level
-                Debug.Log("Leveled up to level " + player.level + "!");
-                Debug.Log("Current XP: " + exp + "/" + xpForLevel);
+                //Debug.Log("Leveled up to level " + player.level + "!");
+                //Debug.Log("Current XP: " + exp + "/" + xpForLevel);
+
+                // Tell the player
+                string levelString = "Leveled up to level " + player.level + "! " + "Current XP: " + exp + "/" + xpForLevel;
+                textBubble.turnON(levelString);
+
                 return exp; // returns exp after reducing the amount needed for a level up
             }
             else
@@ -41,7 +54,12 @@ public class LvlUp : MonoBehaviour
         }
         else
         {
-            Debug.Log("Current XP: " + droppedExp + "/" + xpForLevel);
+            //Debug.Log("Current XP: " + droppedExp + "/" + xpForLevel);
+
+            // Tell the player
+            string levelString = "Current XP: " + droppedExp + "/" + xpForLevel;
+            textBubble.turnON(levelString);
+
             return exp; // returns exp after adding how much is dropped by an enemy
         }
     }

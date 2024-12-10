@@ -26,7 +26,6 @@ public class ItemSO : ScriptableObject
     // Grab the player so we can change the stats
     public PlayerScript player;
 
-
     /*
 
     Function: UseItem
@@ -52,7 +51,7 @@ public class ItemSO : ScriptableObject
             // If player is at max health:
             if(player.Health == player.MaxHealth)
             {
-                // Indicate the item isn't usable
+
                 return false;
 
             }
@@ -64,6 +63,7 @@ public class ItemSO : ScriptableObject
                 player.Health = player.MaxHealth;
 
                 // Indicate the item is usable
+
                 return true;
 
             }
@@ -76,6 +76,7 @@ public class ItemSO : ScriptableObject
                 player.Health += amountToChange;
 
                 // Indicate that the item is usable
+
                 return true;
 
             } 

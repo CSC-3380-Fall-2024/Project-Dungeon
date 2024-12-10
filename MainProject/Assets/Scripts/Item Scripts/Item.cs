@@ -32,9 +32,15 @@ public class Item : MonoBehaviour
 
     private InventoryManager manager;// Keep Track of inventory manager
 
+    private TextBubbleManager textBubble; // Keep track of text bubble
+
     [TextArea]
     [SerializeField]
     public string itemDescription; // This is the item's description
+
+    [TextArea]
+    [SerializeField]
+    public string itemTextBubble; // This is the item's description
 
     private PlayerScript player; //Keep track of player
 
@@ -48,6 +54,9 @@ public class Item : MonoBehaviour
 
         // Find Inventory Manager
         manager = GameObject.Find("InventoryCanvas").GetComponent<InventoryManager>();
+
+        // Find Inventory Manager
+        textBubble = GameObject.Find("TextBubbleCanvas").GetComponent<TextBubbleManager>();
     }
 
     // Update is called once per frame
@@ -62,12 +71,26 @@ public class Item : MonoBehaviour
             // Feed the item name, quantity,sprite, and item description to the InventoryManager
             bool addSuccessful = manager.AddItem(itemName, quantity, sprite, itemDescription);
 
-            if(addSuccessful)
+            if (addSuccessful)
             {
+                // Tell the player what they collected
+                textBubble.turnON(itemTextBubble);
+                
 
                 // Despawn the item
                 Destroy(this.gameObject);
 
+
+            }
+
+            else
+            {
+
+                // Tell the player they can't collect it
+
+                string deny = "Inventory is full";
+
+                textBubble.turnON(deny);
 
             }
 
