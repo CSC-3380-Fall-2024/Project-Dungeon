@@ -30,12 +30,15 @@
 3.) Controls in the game
 - W, A, S, and D or arrows keys to move, and shift to sprint
 - ‘M’: Pulls up the stats menu
+- ‘E’: Interacts button. Interacts with items and enemies
+
+4) Menu controls
 - ‘I’: Pulls up the Inventory menu
 - Left mouse button check item description
 - Right mouse button Uses Item
 - Middle mouse button drops item
-- ‘E’: Interacts button. Interacts with items and enemies
-4) Combat:
+
+5) Combat
 - Attack button: Attacks the enemy
 - Run Button: Disengage from combat
 - Magic button: Attack enemy with magic. Uses 5 mana
