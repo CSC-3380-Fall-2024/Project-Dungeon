@@ -29,11 +29,11 @@
 
 3.) Controls in the game
 - W, A, S, and D or arrows keys to move, and shift to sprint
-- ‘M’: Pulls up the stats menu
+- ‘R’: Pulls up the stats menu
 - ‘E’: Interacts button. Interacts with items and enemies
 
 4) Inventory controls
-- ‘I’: Pulls up the Inventory menu
+- ‘Q’: Pulls up the Inventory menu
 - Left mouse button check item description
 - Right mouse button Uses Item
 - Middle mouse button drops item
