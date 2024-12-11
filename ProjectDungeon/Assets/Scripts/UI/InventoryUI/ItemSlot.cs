@@ -53,6 +53,8 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler
     [SerializeField]
     public TMP_Text itemDescriptionText;// Grab text box for item's description
 
+    public string itemTextBubble; // This is the item's description
+
     //===========Others===========//
 
     public InventoryManager manager;// Grab the inventory manager
@@ -62,6 +64,9 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler
     private MovementScript movement;// Variable for the movement of the player
 
     private EnemyScript[] enemy;// Variable for all enemies
+
+    private GameOverScreen gameOver; // Variable for the game over screen
+
 
     private void Start()
     {
@@ -76,6 +81,9 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler
 
         //Find the movement script for the player
         movement = FindAnyObjectByType<MovementScript>();
+
+        // Find the game over canvas
+        gameOver = GameObject.Find("GameOverCanvas").GetComponent<GameOverScreen>();
 
     }
 
@@ -97,12 +105,13 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler
     * Date created: 12/1/2024
     * Date modified: 12/1/2024
     */
-    public void AddItem(string itemName, int quantity, Sprite itemSprite, string itemDescription)
+    public void AddItem(string itemName, int quantity, Sprite itemSprite, string itemDescription , string textBubble)
     {
         this.itemName = itemName;// Set the item's name to the one given
         this.quantity = quantity;// Set the item's quantity to the one given
         this.itemSprite = itemSprite;// Set the item's sprite to the one given
         this.itemDescription = itemDescription; // Set the item's description
+        this.itemTextBubble = textBubble; // Set text bubble
 
         // Indicate that the slot is taken now
         isFull = true;
@@ -278,6 +287,9 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler
                         badGuy.FightCheck = false;
                         movement.enabled = true;
 
+                        // Declare game over
+                        gameOver.Setup();
+
                     }
 
                     ////////////Disable menu////////////
@@ -306,6 +318,9 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler
                         player.FightCheck = false;
                         badGuy.FightCheck = false;
                         movement.enabled = true;
+
+                        // Declare game over
+                        gameOver.Setup();
 
                     }
 
@@ -390,6 +405,8 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler
 
         // Set item description
         newItem.itemDescription = itemDescription;
+
+        newItem.itemTextBubble = itemTextBubble;
 
         // Create and modify Sprite renderer
         SpriteRenderer sr = itemToDrop.AddComponent<SpriteRenderer>();

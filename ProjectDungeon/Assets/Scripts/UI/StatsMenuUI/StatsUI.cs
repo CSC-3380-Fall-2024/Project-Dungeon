@@ -16,7 +16,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyUp(KeyCode.M))
+        if (Input.GetKeyUp(KeyCode.R))
         {
             UpdateStats();
             ToggleStatsMenu();
