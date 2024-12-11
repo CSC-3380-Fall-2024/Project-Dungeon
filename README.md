@@ -27,6 +27,7 @@
 - W, A, S, and D or arrows keys to move, and shift to sprint
 - ‘R’: Pulls up the stats menu
 - ‘E’: Interacts button. Interacts with items and enemies
+- 'P': Pause menu
 
 4) Inventory controls
 - ‘Q’: Pulls up the Inventory menu
@@ -37,4 +38,6 @@
 5) Combat
 - Attack button: Attacks the enemy
 - Run Button: Disengage from combat
-- Skill button: Brings up a menu with two different attacks that use magic to deal damage. 
+- Skill button: Brings up a menu with two different attacks that use magic to deal damage.
+- Slash: An attack that does 75% more damage
+- Thunder: Must be at max mana. Uses it all and may or may not one shot enemy. You will take double damage if you miss
