@@ -100,7 +100,7 @@ public class allButtons : MonoBehaviour
     public void returnToTitle()
     {
 
-        SceneManager.LoadScene("0) Title Screen");
+        pauseManager.returnToTitle();
 
     }
 }

@@ -49,7 +49,7 @@ public class PlayerScript : MonoBehaviour
         Attack = 5;
         Health = 20;
         MaxHealth = 20;
-        defense = 5;
+        defense = 1;
         speed = 5;
         exp = 0;
         Mana = 20;

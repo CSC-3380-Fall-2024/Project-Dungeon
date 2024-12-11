@@ -165,10 +165,11 @@ public class PauseMenu : MonoBehaviour
     }
 
     /// <summary>
-    ///  This will open up the controls
+    ///  This will quit the game
     /// </summary>
     public void returnToTitle()
     {
+        Time.timeScale = 1;
 
         SceneManager.LoadScene("0) Title Screen");
 

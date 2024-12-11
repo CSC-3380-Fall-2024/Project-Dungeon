@@ -24,7 +24,7 @@ public class RestartButton : MonoBehaviour
         Time.timeScale = 1;
 
         // Load the scene again
-        SceneManager.LoadScene("ModifySkillMenu(Most Recent)");
+        SceneManager.LoadScene("1) The Game");
 
     }
 }

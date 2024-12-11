@@ -42,6 +42,7 @@ public class InventoryManager : MonoBehaviour
     // The button attributed to Inventory is "I"
     void Update()
     {
+        /*
         // Turn off menu if it's already up
         if(Input.GetKeyUp(KeyCode.I) && menuActivated)
         {
@@ -55,8 +56,10 @@ public class InventoryManager : MonoBehaviour
             menuActivated = false;
 
         }
+        */
+
         // Turn on menu if it's not already up
-        else if(Input.GetKeyUp(KeyCode.I) && !menuActivated)
+        if(Input.GetKeyUp(KeyCode.I) && !menuActivated)
         {
             //Set the timescale to 0, or pauses the game
             Time.timeScale = 0;

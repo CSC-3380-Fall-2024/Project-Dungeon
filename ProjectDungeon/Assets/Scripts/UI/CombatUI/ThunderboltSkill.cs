@@ -79,7 +79,7 @@ public class ThunderboltSkill : MonoBehaviour
     {
         foreach (EnemyScript badGuy in enemy)// Iterate through all enemies
         {
-            randNum = Random.Range(0, 4);
+            randNum = Random.Range(0, 11);
             if (badGuy.FightCheck == true && player.FightCheck == true)// Make sure the enemy is in combat
             {
                 if (player.Mana<player.MaxMana)

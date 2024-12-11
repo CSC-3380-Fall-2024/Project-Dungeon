@@ -14,4 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Noodles
   statToChange: 1
-  amountToChange: 5
+  amountToChange: 12
+  player: {fileID: 0}

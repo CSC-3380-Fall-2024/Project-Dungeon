@@ -8,23 +8,23 @@ public class DefCheck
 
     public double DamageReduction(double DRDefense)
     {
-        if (DRDefense < 5) // when defense is less than 5, there will be no damage reduction
+        if (DRDefense < 2) // when defense is less than 2, there will be no damage reduction
         {
             DefReduction = 1;
         }
-        else if (DRDefense >= 5 && DRDefense < 10) // when player's def is 5-9, applies 20% damage reduction (will multiply at end of damage calc)
+        else if (DRDefense >= 2 && DRDefense < 4) // when  def is 2-3, applies 20% damage reduction (will multiply at end of damage calc)
         {
             DefReduction = 0.80;
         }
-        else if (DRDefense >= 10 && DRDefense < 15) // when player's def is 10-14, applies 30% damage reduction
+        else if (DRDefense >= 4 && DRDefense < 6) // when  def is 4-5, applies 30% damage reduction
         {
             DefReduction = 0.70;
         }
-        else if (DRDefense >= 15 && DRDefense < 20) // when player's def is 15-19, applies 40% damage reduction
+        else if (DRDefense >= 6 && DRDefense < 8) // when  def is 6-7, applies 40% damage reduction
         {
             DefReduction = 0.60;
         }
-        else if (DRDefense >= 20) // when player's def is 20 or higher, applies 50% damage reduction
+        else if (DRDefense >= 8) // when  def is 8 or higher, applies 50% damage reduction
         {
             DefReduction = 0.50;
         }
