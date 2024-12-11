@@ -23,7 +23,7 @@
 - Enter the file, and highlight the “Unity Project” folder, then press “select folder”
 
 2.) How to run the game in Unity
-- If there is no scene showing, go into the project tab. Then, go to the scenes folder within assets and double click the “SampleScene” to show the scene properly
+- If there is no scene showing, go into the project tab. Then, go to the scenes folder within assets and double click the “0) Title Screen” to show the title screen
 - Switch over to the “Console” tab
 - Click the play button on the top center of the screen
 
@@ -41,4 +41,4 @@
 5) Combat
 - Attack button: Attacks the enemy
 - Run Button: Disengage from combat
-- Magic button: Attack enemy with magic. Uses 5 mana
+- Skill button: Brings up a menu with two different attacks that use magic to deal damage. 
