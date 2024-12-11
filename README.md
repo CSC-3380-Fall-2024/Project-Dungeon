@@ -20,8 +20,12 @@
 - Click on “Add from Disk” and find the repository
 - Enter the file, and highlight the “Project Dungeon” folder, then press “select folder”
 
-2.) How to run the game in Unity
+2.) How to run the game in Unity 
 - If there is no scene showing, go into the project tab. Go to the scenes folder within assets and double click the “Title Screen” to show the title screen and start the game
+
+3.) Running the game through application
+- Simply click on the application to run it
+- Note: Not exactly sure what the unitycrashandler or unityplayer does. I added it mostly because that's what unity gave me after I build the project
 
 3.) Controls in the game
 - W, A, S, and D or arrows keys to move, and shift to sprint
