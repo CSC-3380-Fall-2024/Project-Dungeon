@@ -59,7 +59,7 @@ public class InventoryManager : MonoBehaviour
         */
 
         // Turn on menu if it's not already up
-        if(Input.GetKeyUp(KeyCode.I) && !menuActivated)
+        if(Input.GetKeyUp(KeyCode.Q) && !menuActivated)
         {
             //Set the timescale to 0, or pauses the game
             Time.timeScale = 0;
@@ -116,7 +116,7 @@ public class InventoryManager : MonoBehaviour
     * Date created: 11/30/2024
     * Date modified: 12/1/2024
     */
-    public bool AddItem(string itemName, int quantity, Sprite itemSprite, string itemDescription)
+    public bool AddItem(string itemName, int quantity, Sprite itemSprite, string itemDescription, string textBubble)
     {   
         // Assume item addition failed at first
         bool result = false;
@@ -128,7 +128,7 @@ public class InventoryManager : MonoBehaviour
             if(itemSlot[i].isFull == false)
             {
                 //Add that item into the item slot
-                itemSlot[i].AddItem(itemName, quantity, itemSprite, itemDescription);
+                itemSlot[i].AddItem(itemName, quantity, itemSprite, itemDescription, textBubble);
 
                 // Addition is successful
                 result = true;

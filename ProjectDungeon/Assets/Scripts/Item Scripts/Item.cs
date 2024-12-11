@@ -69,7 +69,7 @@ public class Item : MonoBehaviour
         if (distance.magnitude <= 1 && Input.GetKeyUp(KeyCode.E))
         {
             // Feed the item name, quantity,sprite, and item description to the InventoryManager
-            bool addSuccessful = manager.AddItem(itemName, quantity, sprite, itemDescription);
+            bool addSuccessful = manager.AddItem(itemName, quantity, sprite, itemDescription, itemTextBubble);
 
             if (addSuccessful)
             {

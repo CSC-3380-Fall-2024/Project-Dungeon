@@ -147,7 +147,7 @@ Transform:
   m_GameObject: {fileID: 9609626}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 21.4, y: -9, z: 0}
+  m_LocalPosition: {x: 23.95, y: -10.66, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -327,7 +327,7 @@ Transform:
   m_GameObject: {fileID: 17846027}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 14.6, y: -23.1, z: 0}
+  m_LocalPosition: {x: 16.2, y: -22.65, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -632,7 +632,7 @@ Transform:
   m_GameObject: {fileID: 38660644}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.7, y: -7.5, z: 0}
+  m_LocalPosition: {x: -2.64, y: -11.01, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -965,7 +965,7 @@ MonoBehaviour:
   itemName: Potion
   quantity: 1
   sprite: {fileID: 21300000, guid: db005d11213e5da47b9769c2e6c56eee, type: 3}
-  itemDescription: A bottle filled with Dungeon juice. Gain 5 mana
+  itemDescription: A bottle filled with Dungeon juice. Gain 12 mana
   itemTextBubble: You obtained a potion
 --- !u!212 &48770625
 SpriteRenderer:
@@ -1852,7 +1852,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Retrun to Title
+  m_text: Return to Title
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1979,7 +1979,7 @@ MonoBehaviour:
   itemName: Potion
   quantity: 1
   sprite: {fileID: 21300000, guid: db005d11213e5da47b9769c2e6c56eee, type: 3}
-  itemDescription: A bottle filled with Dungeon juice. Gain 5 mana
+  itemDescription: A bottle filled with Dungeon juice. Gain 12 mana
   itemTextBubble: You obtained a potion
 --- !u!212 &130538349
 SpriteRenderer:
@@ -2304,7 +2304,7 @@ Transform:
   m_GameObject: {fileID: 144513377}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 20.79, y: -34.079998, z: 0}
+  m_LocalPosition: {x: 22.58, y: -34.14, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3274,7 +3274,7 @@ MonoBehaviour:
   itemName: Potion
   quantity: 1
   sprite: {fileID: 21300000, guid: db005d11213e5da47b9769c2e6c56eee, type: 3}
-  itemDescription: A bottle filled with Dungeon juice. Gain 5 mana
+  itemDescription: A bottle filled with Dungeon juice. Gain 12 mana
   itemTextBubble: You obtained a potion
 --- !u!212 &177573036
 SpriteRenderer:
@@ -6766,7 +6766,7 @@ MonoBehaviour:
   itemName: Noodles
   quantity: 1
   sprite: {fileID: 21300000, guid: 67d91650448db8d4f8c2761c114467a6, type: 3}
-  itemDescription: Greasy noodles found in a dugeon. Heals 5
+  itemDescription: Greasy noodles found in a dugeon. Heals 12
   itemTextBubble: You've obtained Greasy Noodles
 --- !u!212 &347125935
 SpriteRenderer:
@@ -7388,7 +7388,7 @@ Transform:
   m_GameObject: {fileID: 374774112}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -54.03, y: -18.81, z: 0}
+  m_LocalPosition: {x: -21.91, y: -34.59, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8630,7 +8630,7 @@ Transform:
   m_GameObject: {fileID: 414633369}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -39.35, y: -26.3, z: 0}
+  m_LocalPosition: {x: -39.22, y: -26.17, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9233,7 +9233,7 @@ MonoBehaviour:
   itemName: Noodles
   quantity: 1
   sprite: {fileID: 21300000, guid: 67d91650448db8d4f8c2761c114467a6, type: 3}
-  itemDescription: Greasy noodles found in a dugeon. Heals 5
+  itemDescription: Greasy noodles found in a dugeon. Heals 12
   itemTextBubble: You've obtained Greasy Noodles
 --- !u!212 &429701128
 SpriteRenderer:
@@ -9626,7 +9626,7 @@ Transform:
   m_GameObject: {fileID: 455648487}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -39.42, y: -18.67, z: 0}
+  m_LocalPosition: {x: -39.68, y: -19.12, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11001,7 +11001,7 @@ MonoBehaviour:
   itemName: Potion
   quantity: 1
   sprite: {fileID: 21300000, guid: db005d11213e5da47b9769c2e6c56eee, type: 3}
-  itemDescription: A bottle filled with Dungeon juice. Gain 5 mana
+  itemDescription: A bottle filled with Dungeon juice. Gain 12 mana
   itemTextBubble: You obtained a potion
 --- !u!212 &494743825
 SpriteRenderer:
@@ -11978,7 +11978,7 @@ MonoBehaviour:
   itemName: Potion
   quantity: 1
   sprite: {fileID: 21300000, guid: db005d11213e5da47b9769c2e6c56eee, type: 3}
-  itemDescription: A bottle filled with Dungeon juice. Gain 5 mana
+  itemDescription: A bottle filled with Dungeon juice. Gain 12 mana
   itemTextBubble: You obtained a potion
 --- !u!212 &619180849
 SpriteRenderer:
@@ -13441,7 +13441,7 @@ MonoBehaviour:
   itemName: Potion
   quantity: 1
   sprite: {fileID: 21300000, guid: db005d11213e5da47b9769c2e6c56eee, type: 3}
-  itemDescription: A bottle filled with Dungeon juice. Gain 5 mana
+  itemDescription: A bottle filled with Dungeon juice. Gain 12 mana
   itemTextBubble: You obtained a potion
 --- !u!212 &698917793
 SpriteRenderer:
@@ -13766,7 +13766,7 @@ Transform:
   m_GameObject: {fileID: 719664568}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.2, y: -9.3, z: 0}
+  m_LocalPosition: {x: 3.43, y: -8.02, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13946,7 +13946,7 @@ Transform:
   m_GameObject: {fileID: 727059039}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 18.12, y: -37.1, z: 0}
+  m_LocalPosition: {x: 17.23, y: -36.97, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14145,7 +14145,7 @@ MonoBehaviour:
   itemName: Noodles
   quantity: 1
   sprite: {fileID: 21300000, guid: 67d91650448db8d4f8c2761c114467a6, type: 3}
-  itemDescription: Greasy noodles found in a dugeon. Heals 5
+  itemDescription: Greasy noodles found in a dugeon. Heals 12
   itemTextBubble: You've obtained Greasy Noodles
 --- !u!212 &732185128
 SpriteRenderer:
@@ -15544,7 +15544,7 @@ MonoBehaviour:
   itemName: Noodles
   quantity: 1
   sprite: {fileID: 21300000, guid: 67d91650448db8d4f8c2761c114467a6, type: 3}
-  itemDescription: Greasy noodles found in a dugeon. Heals 5
+  itemDescription: Greasy noodles found in a dugeon. Heals 12
   itemTextBubble: You've obtained Greasy Noodles
 --- !u!212 &813035066
 SpriteRenderer:
@@ -15704,7 +15704,7 @@ MonoBehaviour:
   itemName: Potion
   quantity: 1
   sprite: {fileID: 21300000, guid: db005d11213e5da47b9769c2e6c56eee, type: 3}
-  itemDescription: A bottle filled with Dungeon juice. Gain 5 mana
+  itemDescription: A bottle filled with Dungeon juice. Gain 12 mana
   itemTextBubble: You obtained a potion
 --- !u!1 &818806547
 GameObject:
@@ -16065,7 +16065,7 @@ MonoBehaviour:
   itemName: Noodles
   quantity: 1
   sprite: {fileID: 21300000, guid: 67d91650448db8d4f8c2761c114467a6, type: 3}
-  itemDescription: Greasy noodles found in a dugeon. Heals 5
+  itemDescription: Greasy noodles found in a dugeon. Heals 12
   itemTextBubble: You've obtained Greasy Noodles
 --- !u!212 &833937295
 SpriteRenderer:
@@ -16883,7 +16883,7 @@ MonoBehaviour:
   itemName: Noodles
   quantity: 1
   sprite: {fileID: 21300000, guid: 67d91650448db8d4f8c2761c114467a6, type: 3}
-  itemDescription: Greasy noodles found in a dugeon. Heals 5
+  itemDescription: Greasy noodles found in a dugeon. Heals 12
   itemTextBubble: You've obtained Greasy Noodles
 --- !u!212 &897796333
 SpriteRenderer:
@@ -17304,14 +17304,21 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Left Mouse Button: Inspect Item
+  m_text: 'Press ''Q'' to open inventory
 
 
-    Right Mouse Button: Use Item
+    Left Mouse Button: Inspect Item
 
 
-    Scroll
-    Wheel Button: Drop the item'
+    Right
+    Mouse Button: Use Item
+
+
+    Scroll Wheel Button: Drop the item
+
+
+    Click exit
+    button to leave'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -17338,8 +17345,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 23
+  m_fontSizeBase: 23
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -17657,7 +17664,7 @@ MonoBehaviour:
   itemName: Potion
   quantity: 1
   sprite: {fileID: 21300000, guid: db005d11213e5da47b9769c2e6c56eee, type: 3}
-  itemDescription: A bottle filled with Dungeon juice. Gain 5 mana
+  itemDescription: A bottle filled with Dungeon juice. Gain 12 mana
   itemTextBubble: You obtained a potion
 --- !u!212 &949486653
 SpriteRenderer:
@@ -17743,7 +17750,7 @@ Transform:
   m_GameObject: {fileID: 982108790}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -53.89, y: -25.73, z: 0}
+  m_LocalPosition: {x: -53.83, y: -25.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -18141,14 +18148,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Press ''M'' to open the stat menu
+  m_text: 'Press ''R'' to open the stat menu
 
 
     Each time you level up, you gain
     one stat point
 
 
-    Click on the plus sign to allocate poitns'
+    Click on the plus sign to allocate points'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -18794,11 +18801,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd46a742dd8aff94493127d8bd8c2ef4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Health: 269
-  defense: 16.9
-  speed: 16.9
+  Health: 50
+  defense: 10
+  speed: 10
   dropExp: 696969
-  Attack: 16.9
+  Attack: 10
 --- !u!61 &1071336548
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19065,7 +19072,7 @@ Transform:
   m_GameObject: {fileID: 1081162412}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 23.1, y: -7, z: 0}
+  m_LocalPosition: {x: 20.1, y: -19.58, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -20145,7 +20152,7 @@ MonoBehaviour:
   itemName: Potion
   quantity: 1
   sprite: {fileID: 21300000, guid: db005d11213e5da47b9769c2e6c56eee, type: 3}
-  itemDescription: A bottle filled with Dungeon juice. Gain 5 mana
+  itemDescription: A bottle filled with Dungeon juice. Gain 12 mana
   itemTextBubble: You obtained a potion
 --- !u!212 &1140706420
 SpriteRenderer:
@@ -20518,7 +20525,7 @@ MonoBehaviour:
   itemName: Potion
   quantity: 1
   sprite: {fileID: 21300000, guid: db005d11213e5da47b9769c2e6c56eee, type: 3}
-  itemDescription: A bottle filled with Dungeon juice. Gain 5 mana
+  itemDescription: A bottle filled with Dungeon juice. Gain 12 mana
   itemTextBubble: You obtained a potion
 --- !u!212 &1175784108
 SpriteRenderer:
@@ -20777,7 +20784,7 @@ Transform:
   m_GameObject: {fileID: 1208489581}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -48.72, y: -9.07, z: 0}
+  m_LocalPosition: {x: -51.02, y: -6.71, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -22505,7 +22512,7 @@ Transform:
   m_GameObject: {fileID: 1271112280}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -43.91, y: -11.69, z: 0}
+  m_LocalPosition: {x: -46.02, y: -10.92, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -22838,7 +22845,7 @@ MonoBehaviour:
   itemName: Noodles
   quantity: 1
   sprite: {fileID: 21300000, guid: 67d91650448db8d4f8c2761c114467a6, type: 3}
-  itemDescription: Greasy noodles found in a dugeon. Heals 5
+  itemDescription: Greasy noodles found in a dugeon. Heals 12
   itemTextBubble: You've obtained Greasy Noodles
 --- !u!212 &1275195097
 SpriteRenderer:
@@ -24527,7 +24534,7 @@ MonoBehaviour:
   itemName: Potion
   quantity: 1
   sprite: {fileID: 21300000, guid: db005d11213e5da47b9769c2e6c56eee, type: 3}
-  itemDescription: A bottle filled with Dungeon juice. Gain 5 mana
+  itemDescription: A bottle filled with Dungeon juice. Gain 12 mana
   itemTextBubble: You obtained a potion
 --- !u!212 &1328143366
 SpriteRenderer:
@@ -25963,7 +25970,7 @@ Transform:
   m_GameObject: {fileID: 1371643567}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -24.43, y: 6.11, z: 0}
+  m_LocalPosition: {x: -22.6, y: 5.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -85823,7 +85830,7 @@ Transform:
   m_GameObject: {fileID: 1422543191}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -24.9, y: -37.3, z: 0}
+  m_LocalPosition: {x: -25.79, y: -37.56, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -86827,7 +86834,7 @@ MonoBehaviour:
   itemName: Noodles
   quantity: 1
   sprite: {fileID: 21300000, guid: 67d91650448db8d4f8c2761c114467a6, type: 3}
-  itemDescription: Greasy noodles found in a dugeon. Heals 5
+  itemDescription: Greasy noodles found in a dugeon. Heals 12
   itemTextBubble: You've obtained Greasy Noodles
 --- !u!212 &1471762730
 SpriteRenderer:
@@ -87632,7 +87639,7 @@ MonoBehaviour:
   itemName: Noodles
   quantity: 1
   sprite: {fileID: 21300000, guid: 67d91650448db8d4f8c2761c114467a6, type: 3}
-  itemDescription: Greasy noodles found in a dugeon. Heals 5
+  itemDescription: Greasy noodles found in a dugeon. Heals 12
   itemTextBubble: You've obtained Greasy Noodles
 --- !u!212 &1502769350
 SpriteRenderer:
@@ -88217,7 +88224,7 @@ MonoBehaviour:
   - {fileID: 25568118}
   itemSO:
   - {fileID: 11400000, guid: 25afc73f39c705144adc7cd1cc5b602e, type: 2}
-  - {fileID: 11400000, guid: 83a5392c14f6da64bb7bbd05f012f3d0, type: 2}
+  - {fileID: 11400000, guid: 318d32f6ed54f9e4e9833afc575978eb, type: 2}
 --- !u!114 &1522435481
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -88278,7 +88285,7 @@ Canvas:
   m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
-  m_SortingLayerID: -284642323
+  m_SortingLayerID: 1421096051
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!1 &1524973753
@@ -89161,7 +89168,7 @@ Transform:
   m_GameObject: {fileID: 1559860957}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 19.7, y: -22.71, z: 0}
+  m_LocalPosition: {x: 23.4, y: -23.35, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -89349,7 +89356,7 @@ MonoBehaviour:
   m_Intensity: 1
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
-  m_ApplyToSortingLayers: 0000000067dd2f1303aaed51ed4decd9edb308ef
+  m_ApplyToSortingLayers: 0000000067dd2f1303aaed51ed4decd9edb308ef7334b454
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
@@ -89455,11 +89462,11 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Thunderbolt:
 
-    - Mana Cost: a l l
+    - Mana Cost: You must be at max mana
 
-    - Description: A power thunderbolt
-    that is not very accurate. It will vaporize the enemy. If you miss, you take
-    dobule damage for one turn'
+    - Description:
+    A power thunderbolt that is not very accurate. It will vaporize the enemy. If
+    you miss, you take double damage for one turn'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -90115,7 +90122,7 @@ Transform:
   m_GameObject: {fileID: 1661523759}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 16.1, y: -6.8, z: 0}
+  m_LocalPosition: {x: 15.14, y: -6.93, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -91659,7 +91666,7 @@ MonoBehaviour:
   itemName: Noodles
   quantity: 1
   sprite: {fileID: 21300000, guid: 67d91650448db8d4f8c2761c114467a6, type: 3}
-  itemDescription: Greasy noodles found in a dugeon. Heals 5
+  itemDescription: Greasy noodles found in a dugeon. Heals 12
   itemTextBubble: You've obtained Greasy Noodles
 --- !u!212 &1745905330
 SpriteRenderer:
@@ -92306,7 +92313,7 @@ MonoBehaviour:
   itemName: Potion
   quantity: 1
   sprite: {fileID: 21300000, guid: db005d11213e5da47b9769c2e6c56eee, type: 3}
-  itemDescription: A bottle filled with Dungeon juice. Gain 5 mana
+  itemDescription: A bottle filled with Dungeon juice. Gain 12 mana
   itemTextBubble: You obtained a potion
 --- !u!212 &1769918108
 SpriteRenderer:
@@ -93602,7 +93609,7 @@ Transform:
   m_GameObject: {fileID: 1793548799}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 23.1, y: -7, z: 0}
+  m_LocalPosition: {x: 25.85, y: -5.79, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -93801,7 +93808,7 @@ MonoBehaviour:
   itemName: Noodles
   quantity: 1
   sprite: {fileID: 21300000, guid: 67d91650448db8d4f8c2761c114467a6, type: 3}
-  itemDescription: Greasy noodles found in a dugeon. Heals 5
+  itemDescription: Greasy noodles found in a dugeon. Heals 12
   itemTextBubble: You've obtained Greasy Noodles
 --- !u!212 &1793586688
 SpriteRenderer:
@@ -94174,7 +94181,7 @@ MonoBehaviour:
   itemName: Noodles
   quantity: 1
   sprite: {fileID: 21300000, guid: 67d91650448db8d4f8c2761c114467a6, type: 3}
-  itemDescription: Greasy noodles found in a dugeon. Heals 5
+  itemDescription: Greasy noodles found in a dugeon. Heals 12
   itemTextBubble: You've obtained Greasy Noodles
 --- !u!212 &1826720202
 SpriteRenderer:
@@ -94803,7 +94810,7 @@ Transform:
   m_GameObject: {fileID: 1859625218}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -45.03, y: -5.38, z: 0}
+  m_LocalPosition: {x: -28.49, y: -21.53, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -95136,7 +95143,7 @@ MonoBehaviour:
   itemName: Noodles
   quantity: 1
   sprite: {fileID: 21300000, guid: 67d91650448db8d4f8c2761c114467a6, type: 3}
-  itemDescription: Greasy noodles found in a dugeon. Heals 5
+  itemDescription: Greasy noodles found in a dugeon. Heals 12
   itemTextBubble: You've obtained Greasy Noodles
 --- !u!212 &1867823537
 SpriteRenderer:
@@ -95387,7 +95394,7 @@ MonoBehaviour:
   itemName: Noodles
   quantity: 1
   sprite: {fileID: 21300000, guid: 67d91650448db8d4f8c2761c114467a6, type: 3}
-  itemDescription: Greasy noodles found in a dugeon. Heals 5
+  itemDescription: Greasy noodles found in a dugeon. Heals 12
   itemTextBubble: You've obtained Greasy Noodles
 --- !u!212 &1884147360
 SpriteRenderer:
@@ -95885,7 +95892,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 700, y: 250}
+  m_SizeDelta: {x: 700, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1889222678
 MonoBehaviour:
@@ -95916,7 +95923,12 @@ MonoBehaviour:
     ''D'' - Right
 
     ''Shift''
-    - Run'
+    - Run
+
+    ''P'' - Pause menu
+
+    Must Be level 15 to fight the boss. Press
+    ''E'' at the door to check'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -95943,8 +95955,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -96718,7 +96730,7 @@ MonoBehaviour:
   itemName: Potion
   quantity: 1
   sprite: {fileID: 21300000, guid: db005d11213e5da47b9769c2e6c56eee, type: 3}
-  itemDescription: A bottle filled with Dungeon juice. Gain 5 mana
+  itemDescription: A bottle filled with Dungeon juice. Gain 12 mana
   itemTextBubble: You obtained a potion
 --- !u!212 &1922776606
 SpriteRenderer:
@@ -97362,7 +97374,7 @@ MonoBehaviour:
   itemName: Potion
   quantity: 1
   sprite: {fileID: 21300000, guid: db005d11213e5da47b9769c2e6c56eee, type: 3}
-  itemDescription: A bottle filled with Dungeon juice. Gain 5 mana
+  itemDescription: A bottle filled with Dungeon juice. Gain 12 mana
   itemTextBubble: You obtained a potion
 --- !u!212 &1934830994
 SpriteRenderer:
@@ -98037,7 +98049,7 @@ MonoBehaviour:
   itemName: Potion
   quantity: 1
   sprite: {fileID: 21300000, guid: db005d11213e5da47b9769c2e6c56eee, type: 3}
-  itemDescription: A bottle filled with Dungeon juice. Gain 5 mana
+  itemDescription: A bottle filled with Dungeon juice. Gain 12 mana
   itemTextBubble: You obtained a potion
 --- !u!212 &1988922059
 SpriteRenderer:
@@ -98546,7 +98558,7 @@ MonoBehaviour:
   itemName: Noodles
   quantity: 1
   sprite: {fileID: 21300000, guid: 67d91650448db8d4f8c2761c114467a6, type: 3}
-  itemDescription: Greasy noodles found in a dugeon. Heals 5
+  itemDescription: Greasy noodles found in a dugeon. Heals 12
   itemTextBubble: You've obtained Greasy Noodles
 --- !u!212 &2035525980
 SpriteRenderer:
@@ -98651,7 +98663,7 @@ MonoBehaviour:
   itemName: Noodles
   quantity: 1
   sprite: {fileID: 21300000, guid: 67d91650448db8d4f8c2761c114467a6, type: 3}
-  itemDescription: Greasy noodles found in a dugeon. Heals 5
+  itemDescription: Greasy noodles found in a dugeon. Heals 12
   itemTextBubble: You've obtained Greasy Noodles
 --- !u!212 &2050545925
 SpriteRenderer:
@@ -99208,7 +99220,7 @@ Transform:
   m_GameObject: {fileID: 2069647746}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -45.03, y: -5.38, z: 0}
+  m_LocalPosition: {x: -42.48, y: -6.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -99936,7 +99948,7 @@ Transform:
   m_GameObject: {fileID: 2112691598}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 22.41, y: -38.64, z: 0}
+  m_LocalPosition: {x: 24.2, y: -38.45, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

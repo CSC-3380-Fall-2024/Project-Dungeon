@@ -3,7 +3,7 @@ using JetBrains.Annotations;
 
 public class DefCheck 
 {
-    public static double DRDefense; // Defense that will be used to find Damage reduction
+    //public static double DRDefense; // Defense that will be used to find Damage reduction
     public double DefReduction;
 
     public double DamageReduction(double DRDefense)

@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using System;
 
 /*
  * Author: Ryan Tin Tran
@@ -93,7 +94,7 @@ public class SlashSkill : MonoBehaviour
                         double enemydefReduction = defCheck.DamageReduction(badGuy.defense); // does the same for the enemy
 
                         player.Mana -= 5; //depletes mana.
-                        badGuy.Health = DmgCalc.PlayerAttack(player.Attack * 1.2, enemydefReduction, badGuy.Health); // player attacks first
+                        badGuy.Health =  Math.Round(DmgCalc.PlayerAttack(1.75 * player.Attack, enemydefReduction, badGuy.Health)); // player attacks first
                         if (badGuy.Health<=0) //quickly checks enemy's health to see if they are still alive.
                         {
                             // Exit combat
@@ -118,7 +119,7 @@ public class SlashSkill : MonoBehaviour
                         }
                         else
                         {
-                            player.Health = DmgCalc.EnemyAttack(badGuy.Attack, playerdefReduction, player.Health); // enemy attacks second
+                            player.Health = Math.Round(DmgCalc.EnemyAttack(badGuy.Attack, playerdefReduction, player.Health)); // enemy attacks second
                             //later code will determine what happens after.
 
                             if (player.Health <= 0)
@@ -141,7 +142,7 @@ public class SlashSkill : MonoBehaviour
                         double playerdefReduction = defCheck.DamageReduction(player.defense); // takes player's defense and returns the damage reduction
                         double enemydefReduction = defCheck.DamageReduction(badGuy.defense); // does the same for the enemy
 
-                        player.Health = DmgCalc.EnemyAttack(badGuy.Attack, playerdefReduction, player.Health); // enemy attacks first
+                        player.Health =  Math.Round(DmgCalc.EnemyAttack(badGuy.Attack, playerdefReduction, player.Health)); // enemy attacks first
                         if (player.Health<=0)
                         {
                             // Exit combat
@@ -155,7 +156,7 @@ public class SlashSkill : MonoBehaviour
                         else
                         {
                             player.Mana -= 5; //depletes mana for skill usage.
-                            badGuy.Health = DmgCalc.PlayerAttack(player.Attack * 1.2, enemydefReduction, badGuy.Health); // player attacks second
+                            badGuy.Health = Math.Round(DmgCalc.PlayerAttack(1.75 * player.Attack, enemydefReduction, badGuy.Health)); // player attacks second
 
                             if (badGuy.Health <= 0) //quickly checks enemy's health to see if they are still alive.
                             {
